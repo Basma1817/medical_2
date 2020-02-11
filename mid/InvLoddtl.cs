@@ -14,11 +14,8 @@ namespace mid
     
     public partial class InvLoddtl
     {
-<<<<<<< HEAD
         public short Cmp_No { get; set; }
         public short Actvty_No { get; set; }
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         public short StoreID { get; set; }
         public short Doc_Ty { get; set; }
         public long Doc_No { get; set; }
@@ -108,9 +105,5 @@ namespace mid
         public Nullable<decimal> SpecialDiscount { get; set; }
         public Nullable<decimal> Taxp_Extra { get; set; }
         public Nullable<decimal> Taxv_Extra { get; set; }
-<<<<<<< HEAD
-=======
-        public Nullable<int> cmp_no { get; set; }
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     }
 }

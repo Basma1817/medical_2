@@ -19,11 +19,7 @@ namespace mid
                 var cn = db.FixdAstStatus.Find(id);
                 TextBox1.Text = cn.AsetStat_No.ToString();
                 TextBox2.Text = cn.AsetStat_NmAr;
-<<<<<<< HEAD
                 TextBox3.Text = cn.AsetStat_NmEn;
-=======
-              
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             }
         }
 
@@ -47,11 +43,7 @@ namespace mid
         }
         protected void Button3_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             Response.Redirect("asets_status.aspx");
-=======
-            Response.Redirect("branch.aspx");
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         }
         }
 }

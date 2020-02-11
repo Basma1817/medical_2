@@ -35,7 +35,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-<<<<<<< HEAD
     <EntitySetMapping Name="AstCity">
       <EntityTypeMapping TypeName="ICDBTrdAModel.AstCity">
         <MappingFragment StoreEntitySet="AstCity">
@@ -53,8 +52,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     <EntitySetMapping Name="AstCompany">
       <EntityTypeMapping TypeName="ICDBTrdAModel.AstCompany">
         <MappingFragment StoreEntitySet="AstCompany">
@@ -664,23 +661,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-<<<<<<< HEAD
-=======
-    <EntitySetMapping Name="InvAstArea">
-      <EntityTypeMapping TypeName="ICDBTrdAModel.InvAstArea">
-        <MappingFragment StoreEntitySet="InvAstArea">
-          <ScalarProperty Name="ID_NO" ColumnName="ID_NO" />
-          <ScalarProperty Name="Area_No" ColumnName="Area_No" />
-          <ScalarProperty Name="Area_NmAR" ColumnName="Area_NmAR" />
-          <ScalarProperty Name="Area_NmEN" ColumnName="Area_NmEN" />
-          <ScalarProperty Name="Cntry_No" ColumnName="Cntry_No" />
-          <ScalarProperty Name="City_No" ColumnName="City_No" />
-          <ScalarProperty Name="Slm_No" ColumnName="Slm_No" />
-          <ScalarProperty Name="cmp_no" ColumnName="cmp_no" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     <EntitySetMapping Name="InvAstCardTyp">
       <EntityTypeMapping TypeName="ICDBTrdAModel.InvAstCardTyp">
         <MappingFragment StoreEntitySet="InvAstCardTyp">
@@ -690,22 +670,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-<<<<<<< HEAD
-=======
-    <EntitySetMapping Name="InvAstCity">
-      <EntityTypeMapping TypeName="ICDBTrdAModel.InvAstCity">
-        <MappingFragment StoreEntitySet="InvAstCity">
-          <ScalarProperty Name="ID_NO" ColumnName="ID_NO" />
-          <ScalarProperty Name="City_No" ColumnName="City_No" />
-          <ScalarProperty Name="Brn_No" ColumnName="Brn_No" />
-          <ScalarProperty Name="City_NmAR" ColumnName="City_NmAR" />
-          <ScalarProperty Name="City_NmEN" ColumnName="City_NmEN" />
-          <ScalarProperty Name="Cntry_No" ColumnName="Cntry_No" />
-          <ScalarProperty Name="cmp_no" ColumnName="cmp_no" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     <EntitySetMapping Name="InvAstCntry">
       <EntityTypeMapping TypeName="ICDBTrdAModel.InvAstCntry">
         <MappingFragment StoreEntitySet="InvAstCntry">
@@ -794,7 +758,6 @@
       <EntityTypeMapping TypeName="ICDBTrdAModel.InvAstRefTyp">
         <MappingFragment StoreEntitySet="InvAstRefTyp">
           <ScalarProperty Name="ID_NO" ColumnName="ID_NO" />
-<<<<<<< HEAD
           <ScalarProperty Name="Cmp_No" ColumnName="Cmp_No" />
           <ScalarProperty Name="Actvty_No" ColumnName="Actvty_No" />
           <ScalarProperty Name="RefTyp_No" ColumnName="RefTyp_No" />
@@ -803,24 +766,6 @@
           <ScalarProperty Name="Level_Status" ColumnName="Level_Status" />
           <ScalarProperty Name="RefTyp_NmAr" ColumnName="RefTyp_NmAr" />
           <ScalarProperty Name="RefTyp_NmEn" ColumnName="RefTyp_NmEn" />
-=======
-          <ScalarProperty Name="Main_Reftyp" ColumnName="Main_Reftyp" />
-          <ScalarProperty Name="RefTyp_No" ColumnName="RefTyp_No" />
-          <ScalarProperty Name="RefTyp_Nm" ColumnName="RefTyp_Nm" />
-          <ScalarProperty Name="RefTyp_NmAr" ColumnName="RefTyp_NmAr" />
-          <ScalarProperty Name="cmp_no" ColumnName="cmp_no" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="InvAstRefTypMain">
-      <EntityTypeMapping TypeName="ICDBTrdAModel.InvAstRefTypMain">
-        <MappingFragment StoreEntitySet="InvAstRefTypMain">
-          <ScalarProperty Name="ID_NO" ColumnName="ID_NO" />
-          <ScalarProperty Name="Main_Reftyp" ColumnName="Main_Reftyp" />
-          <ScalarProperty Name="RefTyp_Nm" ColumnName="RefTyp_Nm" />
-          <ScalarProperty Name="RefTyp_NmAr" ColumnName="RefTyp_NmAr" />
-          <ScalarProperty Name="cmp_no" ColumnName="cmp_no" />
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -886,11 +831,8 @@
     <EntitySetMapping Name="InvLoddtl">
       <EntityTypeMapping TypeName="ICDBTrdAModel.InvLoddtl">
         <MappingFragment StoreEntitySet="InvLoddtl">
-<<<<<<< HEAD
           <ScalarProperty Name="Cmp_No" ColumnName="Cmp_No" />
           <ScalarProperty Name="Actvty_No" ColumnName="Actvty_No" />
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
           <ScalarProperty Name="StoreID" ColumnName="StoreID" />
           <ScalarProperty Name="Doc_Ty" ColumnName="Doc_Ty" />
           <ScalarProperty Name="Doc_No" ColumnName="Doc_No" />
@@ -980,21 +922,14 @@
           <ScalarProperty Name="SpecialDiscount" ColumnName="SpecialDiscount" />
           <ScalarProperty Name="Taxp_Extra" ColumnName="Taxp_Extra" />
           <ScalarProperty Name="Taxv_Extra" ColumnName="Taxv_Extra" />
-<<<<<<< HEAD
-=======
-          <ScalarProperty Name="cmp_no" ColumnName="cmp_no" />
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="InvLodhdr">
       <EntityTypeMapping TypeName="ICDBTrdAModel.InvLodhdr">
         <MappingFragment StoreEntitySet="InvLodhdr">
-<<<<<<< HEAD
           <ScalarProperty Name="Cmp_No" ColumnName="Cmp_No" />
           <ScalarProperty Name="Actvty_No" ColumnName="Actvty_No" />
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
           <ScalarProperty Name="StoreID" ColumnName="StoreID" />
           <ScalarProperty Name="Doc_Ty" ColumnName="Doc_Ty" />
           <ScalarProperty Name="Doc_No" ColumnName="Doc_No" />
@@ -1079,10 +1014,6 @@
           <ScalarProperty Name="Taxv_ExtraTot" ColumnName="Taxv_ExtraTot" />
           <ScalarProperty Name="Tax_Allow" ColumnName="Tax_Allow" />
           <ScalarProperty Name="Tax_Acc" ColumnName="Tax_Acc" />
-<<<<<<< HEAD
-=======
-          <ScalarProperty Name="cmp_no" ColumnName="cmp_no" />
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -3742,7 +3673,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-<<<<<<< HEAD
     <FunctionImportMapping FunctionImportName="InvLoddtl_Count_New_Ln_No" FunctionName="ICDBTrdAModel.Store.InvLoddtl_Count_New_Ln_No" />
     <FunctionImportMapping FunctionImportName="InvLoddtl_Get_By_Doc_No" FunctionName="ICDBTrdAModel.Store.InvLoddtl_Get_By_Doc_No">
       <ResultMapping>
@@ -3872,8 +3802,6 @@
     <FunctionImportMapping FunctionImportName="InvLodhdr_Insert" FunctionName="ICDBTrdAModel.Store.InvLodhdr_Insert" />
     <FunctionImportMapping FunctionImportName="InvLodhdr_Max_ID" FunctionName="ICDBTrdAModel.Store.InvLodhdr_Max_ID" />
     <FunctionImportMapping FunctionImportName="InvLodhdr_Update" FunctionName="ICDBTrdAModel.Store.InvLodhdr_Update" />
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     <FunctionImportMapping FunctionImportName="login_check" FunctionName="ICDBTrdAModel.Store.login_check">
       <ResultMapping>
         <ComplexTypeMapping TypeName="ICDBTrdAModel.login_check_Result">
@@ -3883,7 +3811,6 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-<<<<<<< HEAD
     <FunctionImportMapping FunctionImportName="MtsItmunit_Gett_By_Itm_No" FunctionName="ICDBTrdAModel.Store.MtsItmunit_Gett_By_Itm_No">
       <ResultMapping>
         <ComplexTypeMapping TypeName="ICDBTrdAModel.MtsItmunit_Gett_By_Itm_No_Result">
@@ -3895,8 +3822,6 @@
       </ResultMapping>
     </FunctionImportMapping>
     <FunctionImportMapping FunctionImportName="MtsSuplir_get_Credit_Days" FunctionName="ICDBTrdAModel.Store.MtsSuplir_get_Credit_Days" />
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     <FunctionImportMapping FunctionImportName="register" FunctionName="ICDBTrdAModel.Store.register" />
     <FunctionImportMapping FunctionImportName="select_grid" FunctionName="ICDBTrdAModel.Store.select_grid">
       <ResultMapping>

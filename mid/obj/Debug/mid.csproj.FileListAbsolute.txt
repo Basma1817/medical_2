@@ -949,7 +949,6 @@ E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Syncf
 E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\obj\Debug\mid.csprojResolveAssemblyReference.cache
 E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\obj\Debug\mid.dll
 E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\obj\Debug\mid.pdb
-<<<<<<< HEAD
 F:\basma\medical work area\mid\bin\ApplicationInsights.config
 F:\basma\medical work area\mid\bin\mid.dll.config
 F:\basma\medical work area\mid\bin\mid.dll
@@ -1021,5 +1020,3 @@ F:\basma\medical work area\mid\bin\Syncfusion.Linq.Base.xml
 F:\basma\medical work area\mid\obj\Debug\mid.csprojResolveAssemblyReference.cache
 F:\basma\medical work area\mid\obj\Debug\mid.dll
 F:\basma\medical work area\mid\obj\Debug\mid.pdb
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602

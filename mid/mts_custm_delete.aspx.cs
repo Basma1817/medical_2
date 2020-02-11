@@ -31,22 +31,14 @@ namespace mid
 
                 DropDownList7.DataValueField = "Area_No";
                 DropDownList7.DataTextField = "Area_NmAR";
-<<<<<<< HEAD
                 //DropDownList7.DataSource = db.InvAstAreaxxxx.ToList();
-=======
-                DropDownList7.DataSource = db.InvAstArea.ToList();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 DropDownList7.DataBind();
 
 
 
                 DropDownList4.DataValueField = "City_No";
                 DropDownList4.DataTextField = "City_NmAR";
-<<<<<<< HEAD
                 //DropDownList4.DataSource = db.InvAstCityxxx.ToList();
-=======
-                DropDownList4.DataSource = db.InvAstCity.ToList();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 DropDownList4.DataBind();
 
 

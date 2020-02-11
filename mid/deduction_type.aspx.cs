@@ -17,7 +17,6 @@ namespace mid
             DropDownList1.DataSource = db.MainCmpnam.ToList();
             DropDownList1.DataBind();
 
-<<<<<<< HEAD
             int no = int.Parse(DropDownList1.SelectedValue);
 
             DropDownList2.DataTextField = "Name_Arb";
@@ -25,8 +24,6 @@ namespace mid
             DropDownList2.DataSource = db.ActivityTypes.Where(o => o.cmp_no == no).ToList();
             DropDownList2.DataBind();
             ViewState["id"] = 0;
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             var query = from p in db.HrAstdeductntyp
                         //where p.Deduc_No == id
                         select new
@@ -117,7 +114,6 @@ namespace mid
             db.SaveChanges();
             Response.Redirect("deduction_type.aspx");
         }
-<<<<<<< HEAD
 
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -133,7 +129,5 @@ namespace mid
         {
 
         }
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     }
 }

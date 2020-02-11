@@ -8,7 +8,6 @@
         </div>
         </div>     
 
-<<<<<<< HEAD
          <div class="row">
         <div class="col-lg-5">
         </div>
@@ -40,16 +39,6 @@
             </div>
         </div>
             </div>
-=======
-        <div class="box-body">
-                <div>
-                    <div class="box-title" dir="rtl">
-                        <asp:Label ID="Label2" runat="server" Text="اسم الشركة"></asp:Label>
-                        &nbsp;
-                        <asp:DropDownList ID="DropDownList1" runat="server">
-                        </asp:DropDownList>
-                    </div>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
       <%--  <div class="wrapper" id="app" style="float: left; width: 100%; margin-right: 30px;">--%>
             <div style="direction: rtl; padding: 10px 10px 10px 55px">
                 <asp:Label ID="Label1" runat="server" Text="طرق الدفع"></asp:Label>

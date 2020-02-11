@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="reftype.aspx.cs" Inherits="mid.reftype" %>
-<<<<<<< HEAD
          <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
         
          <div class="panel panel-default col-lg-12">
@@ -42,23 +41,6 @@
 
         
             <div>
-=======
-
-<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <section class="content-header">
-
-        <ol class="breadcrumb">
-            <h1 style="padding-left: 600px;"><small>الاعدادات العامة > المرجع الفرعى للسندات</small></h1>
-        </ol>
-          <div style="margin:0 0 2% 51%">
-        <asp:Label ID="Label2" runat="server" Text="اسم الشركة"></asp:Label>
-            <asp:DropDownList ID="DropDownList1" runat="server">
-                <asp:ListItem>--اختر--</asp:ListItem>
-            </asp:DropDownList>
-        </div>
-        <div class="wrapper" id="app" style="float: left; width: 100%; margin-right: 30px;">
-            <div style="direction: rtl; padding: 10px 10px 10px 55px">
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 <asp:Label ID="Label1" runat="server" Text="المرجع الفرعي للسندات"></asp:Label>
 
                <asp:TextBox  Style="height: 25px; width: 135px;" ID="TextBox1" runat="server"></asp:TextBox>
@@ -71,23 +53,11 @@
                 <asp:Button ID="Button3" runat="server" Text="تقرير" class="btn btn-success" Style="margin-right: 15px; background-color:#075;" OnClick="Button3_Click" />
             </div>
 
-<<<<<<< HEAD
                 <div>
-=======
-            <div style="width: 100px; position: center; height: 935px; justify-content: center; width: 100%; padding-left: 55px; padding-right: 40px; text-align: center;">
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 <asp:GridView ID="GridView1" GridLines="None" CssClass="table table-striped" BackColor="White" runat="server" OnPageIndexChanging="GridView1_PageIndexChanging" AllowPaging="True" Style="direction: ltr; font-size: 14px;">
                     <Columns>
                         <asp:HyperLinkField  ControlStyle-BackColor="red" ControlStyle-ForeColor="White" ControlStyle-CssClass="p-2" DataNavigateUrlFields="الرقم" DataNavigateUrlFormatString="ref_type_delete.aspx?no={0}" HeaderText="حذف" NavigateUrl="~/ref_type_delete.aspx" Text='<i class="fa fa-trash"></i>' />
 
-<<<<<<< HEAD
-=======
-
-
-
-
-
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                         <asp:HyperLinkField  ControlStyle-BackColor="Green" ControlStyle-ForeColor="White" ControlStyle-CssClass="p-2" DataNavigateUrlFields="الرقم" DataNavigateUrlFormatString="updatedelereftype.aspx?no={0}" HeaderText="تعديل" NavigateUrl="~/updatedelereftype.aspx" Text='<i class="fa fa-edit"></i>' />
                      
 
@@ -97,11 +67,5 @@
                     </Columns>
                 </asp:GridView>
             </div>
-<<<<<<< HEAD
  
-=======
-
-        </div>
-    </section>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
 </asp:Content>

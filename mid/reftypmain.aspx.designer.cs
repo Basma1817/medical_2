@@ -13,7 +13,6 @@ namespace mid {
     public partial class reftypmain {
         
         /// <summary>
-<<<<<<< HEAD
         /// Button2 control.
         /// </summary>
         /// <remarks>
@@ -68,8 +67,6 @@ namespace mid {
         protected global::System.Web.UI.WebControls.TextBox TextBox22;
         
         /// <summary>
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// Label2 control.
         /// </summary>
         /// <remarks>
@@ -79,7 +76,6 @@ namespace mid {
         protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-<<<<<<< HEAD
         /// DropDownList2 control.
         /// </summary>
         /// <remarks>
@@ -116,8 +112,6 @@ namespace mid {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// DropDownList1 control.
         /// </summary>
         /// <remarks>
@@ -127,21 +121,13 @@ namespace mid {
         protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
         
         /// <summary>
-<<<<<<< HEAD
         /// Label10 control.
-=======
-        /// Label1 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label Label10;
-=======
-        protected global::System.Web.UI.WebControls.Label Label1;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         
         /// <summary>
         /// TextBox1 control.
@@ -153,7 +139,6 @@ namespace mid {
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
         
         /// <summary>
-<<<<<<< HEAD
         /// Label11 control.
         /// </summary>
         /// <remarks>
@@ -200,66 +185,38 @@ namespace mid {
         
         /// <summary>
         /// TextBox2 control.
-=======
-        /// Button1 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.TextBox TextBox2;
         
         /// <summary>
         /// Label8 control.
-=======
-        protected global::System.Web.UI.WebControls.Button Button1;
-        
-        /// <summary>
-        /// Button2 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label Label8;
         
         /// <summary>
         /// TextBox3 control.
-=======
-        protected global::System.Web.UI.WebControls.Button Button2;
-        
-        /// <summary>
-        /// Button3 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.TextBox TextBox3;
         
         /// <summary>
         /// TreeView1 control.
-=======
-        protected global::System.Web.UI.WebControls.Button Button3;
-        
-        /// <summary>
-        /// GridView1 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.TreeView TreeView1;
-=======
-        protected global::System.Web.UI.WebControls.GridView GridView1;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     }
 }

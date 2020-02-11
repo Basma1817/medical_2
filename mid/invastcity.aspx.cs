@@ -19,7 +19,6 @@ namespace mid
 
             if (string.IsNullOrEmpty(TextBox1.Text) || string.IsNullOrWhiteSpace(TextBox1.Text))
             {
-<<<<<<< HEAD
                 //var query = from p in db.InvAstCityxxx
                 //                /*where p.Jr_Ty == id*/
                 //            select new
@@ -32,27 +31,12 @@ namespace mid
                 //            };
                 //GridView1.DataSource = query.ToList();
                 //GridView1.DataBind();
-=======
-                var query = from p in db.InvAstCity
-                            /*where p.Jr_Ty == id*/
-                            select new
-                            {
-                             
-                              
-                              الإسم_بالإنجليزي =  p.City_NmEN,
-                              الإسم_بالعربي = p.City_NmAR,
-                                الرقم = p.City_No
-                            };
-                GridView1.DataSource = query.ToList();
-                GridView1.DataBind();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             }
             else
             {
                 try
                 {
                     int id = int.Parse(TextBox1.Text);
-<<<<<<< HEAD
                     //var query = from p in db.InvAstCityxxx
                     //            where p.City_No == id
                     //            select new
@@ -64,19 +48,6 @@ namespace mid
 
                     //GridView1.DataBind();
                     //GridView1.DataSource = query.ToList();
-=======
-                    var query = from p in db.InvAstCity
-                                where p.City_No == id
-                                select new
-                                {
-                                    الإسم_بالإنجليزي = p.City_NmEN,
-                                    الإسم_بالعربي = p.City_NmAR,
-                                    الرقم = p.City_No
-                                };
-
-                    GridView1.DataBind();
-                    GridView1.DataSource = query.ToList();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 }
                 catch 
                 {
@@ -90,7 +61,6 @@ namespace mid
         {
             try
             {
-<<<<<<< HEAD
                 //int id = int.Parse(TextBox1.Text);
                 //var query = from p in db.InvAstCityxxx
                 //            where p.City_No == id
@@ -103,20 +73,6 @@ namespace mid
                 
                 //GridView1.DataBind();
                 //GridView1.DataSource = query.ToList();
-=======
-                int id = int.Parse(TextBox1.Text);
-                var query = from p in db.InvAstCity
-                            where p.City_No == id
-                            select new
-                            {
-                                الإسم_بالإنجليزي = p.City_NmEN,
-                                الإسم_بالعربي = p.City_NmAR,
-                                الرقم = p.City_No
-                            };
-                
-                GridView1.DataBind();
-                GridView1.DataSource = query.ToList();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             }
             catch
             {
@@ -129,7 +85,6 @@ namespace mid
             GridView1.PageIndex = e.NewPageIndex;
             if (string.IsNullOrEmpty(TextBox1.Text) || string.IsNullOrWhiteSpace(TextBox1.Text))
             {
-<<<<<<< HEAD
                 //var query = from p in db.InvAstCityxxx
                 //                /*where p.Jr_Ty == id*/
                 //            select new
@@ -140,24 +95,11 @@ namespace mid
                 //            };
                 //GridView1.DataSource = query.ToList();
                 //GridView1.DataBind();
-=======
-                var query = from p in db.InvAstCity
-                            /*where p.Jr_Ty == id*/
-                            select new
-                            {
-                                الإسم_بالإنجليزي = p.City_NmEN,
-                                الإسم_بالعربي = p.City_NmAR,
-                                الرقم = p.City_No
-                            };
-                GridView1.DataSource = query.ToList();
-                GridView1.DataBind();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             }
             else
             {
                 try
                 {
-<<<<<<< HEAD
                     ////int id = int.Parse(TextBox1.Text);
                     ////var query = from p in db.InvAstCityxxx
                     ////            where p.City_No == id
@@ -170,20 +112,6 @@ namespace mid
 
                     ////GridView1.DataBind();
                     ////GridView1.DataSource = query.ToList();
-=======
-                    int id = int.Parse(TextBox1.Text);
-                    var query = from p in db.InvAstCity
-                                where p.City_No == id
-                                select new
-                                {
-                                    الإسم_بالإنجليزي = p.City_NmEN,
-                                    الإسم_بالعربي = p.City_NmAR,
-                                    الرقم = p.City_No
-                                };
-
-                    GridView1.DataBind();
-                    GridView1.DataSource = query.ToList();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 }
                 catch
                 {

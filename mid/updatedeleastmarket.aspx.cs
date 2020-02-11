@@ -29,11 +29,7 @@ namespace mid
 
         }
 
-<<<<<<< HEAD
         protected void Button3_Click(object sender, EventArgs e)
-=======
-        protected void Button1_Click(object sender, EventArgs e)
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         {
             var id = int.Parse(Request.QueryString["no"]);
             var cn = db.InvAstMarket.Find(id);
@@ -45,7 +41,6 @@ namespace mid
             Response.Redirect("astmarket.aspx");
         }
 
-<<<<<<< HEAD
         //protected void Button2_Click(object sender, EventArgs e)
         //{
         //    var id = int.Parse(Request.QueryString["no"]);
@@ -56,18 +51,6 @@ namespace mid
         //}
         protected void Button2_Click(object sender, EventArgs e)
         {
-=======
-        protected void Button2_Click(object sender, EventArgs e)
-        {
-            var id = int.Parse(Request.QueryString["no"]);
-            var cn = db.InvAstMarket.Find(id);
-            db.InvAstMarket.Remove(cn);
-            db.SaveChanges();
-            Response.Redirect("astmarket.aspx");
-        }
-        protected void Button3_Click(object sender, EventArgs e)
-        {
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             Response.Redirect("astmarket.aspx");
         }
         }

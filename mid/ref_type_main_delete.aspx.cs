@@ -16,17 +16,10 @@ namespace mid
             {
                 TextBox1.Enabled = false;
                 var id = int.Parse(Request.QueryString["no"]);
-<<<<<<< HEAD
                 //var cn = db.InvAstRefTypMain.Find(id);
                 //TextBox1.Text = cn.Main_Reftyp.ToString();
                 //TextBox2.Text = cn.RefTyp_NmAr;
                 //TextBox3.Text = cn.RefTyp_Nm;
-=======
-                var cn = db.InvAstRefTypMain.Find(id);
-                TextBox1.Text = cn.Main_Reftyp.ToString();
-                TextBox2.Text = cn.RefTyp_NmAr;
-                TextBox3.Text = cn.RefTyp_Nm;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             }
         }
         protected void Button3_Click(object sender, EventArgs e)
@@ -44,17 +37,10 @@ namespace mid
             else
             {
                 // delete selected row
-<<<<<<< HEAD
                 //var cn = db.InvAstRefTypMain.Find(id);
                 //db.InvAstRefTypMain.Remove(cn);
                 //db.SaveChanges();
                 //Response.Redirect("reftypmain.aspx");
-=======
-                var cn = db.InvAstRefTypMain.Find(id);
-                db.InvAstRefTypMain.Remove(cn);
-                db.SaveChanges();
-                Response.Redirect("reftypmain.aspx");
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 // load data to grid view
                 //var query = from p in db.ActivityTypes
                 //                // where p.Actvty_No == id

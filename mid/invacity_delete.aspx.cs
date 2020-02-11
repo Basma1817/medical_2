@@ -45,21 +45,12 @@ namespace mid
                 //  fill data for fields
 
                 var id = int.Parse(Request.QueryString["no"]);
-<<<<<<< HEAD
                 //var cn = db.InvAstCityxxx.Find(id);
                 //TextBox1.Text = cn.City_No.ToString();
                 //TextBox2.Text = cn.City_NmAR.ToString();
                 //TextBox3.Text = cn.City_NmEN.ToString();
                 //DropDownList1.SelectedValue = cn.Cntry_No.Value.ToString();
                 //DropDownList2.SelectedValue = cn.Brn_No.Value.ToString();
-=======
-                var cn = db.InvAstCity.Find(id);
-                TextBox1.Text = cn.City_No.ToString();
-                TextBox2.Text = cn.City_NmAR.ToString();
-                TextBox3.Text = cn.City_NmEN.ToString();
-                DropDownList1.SelectedValue = cn.Cntry_No.Value.ToString();
-                DropDownList2.SelectedValue = cn.Brn_No.Value.ToString();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             }
         }
         protected void Button3_Click(object sender, EventArgs e)
@@ -77,17 +68,10 @@ namespace mid
             else
             {
                 // delete selected row
-<<<<<<< HEAD
                 //var cn = db.InvAstCityxxx.Find(id);
                 //db.InvAstCityxxx.Remove(cn);
                 //db.SaveChanges();
                 //Response.Redirect("invastcity.aspx");
-=======
-                var cn = db.InvAstCity.Find(id);
-                db.InvAstCity.Remove(cn);
-                db.SaveChanges();
-                Response.Redirect("invastcity.aspx");
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 // load data to grid view
                 //var query = from p in db.ActivityTypes
                 //                // where p.Actvty_No == id

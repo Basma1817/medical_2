@@ -14,14 +14,11 @@ namespace mid
         {
             if (!Page.IsPostBack)
             {
-<<<<<<< HEAD
                 TextBox1.Enabled = false;
                 TextBox2.Enabled = false;
                 TextBox3.Enabled = false;
                 TextBox4.Enabled = false;
 
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 var id = int.Parse(Request.QueryString["no"]);
                 var cn = db.AstDprtmnt.Find(id);
                 TextBox1.Text = cn.Dpm_No.ToString();

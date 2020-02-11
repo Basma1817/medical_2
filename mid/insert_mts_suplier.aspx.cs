@@ -11,28 +11,19 @@ namespace mid
     public partial class insert_mts_suplier : System.Web.UI.Page
     {
 
-<<<<<<< HEAD
         ICDBTrdAEntities db = new ICDBTrdAEntities();
-=======
-     ICDBTrdAEntities   db = new ICDBTrdAEntities();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         //private long id;
 
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Page.IsPostBack)
             {
-<<<<<<< HEAD
                 TextBox1.Enabled = false;
                 TextBox14.Enabled = false;
-=======
-
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 DropDownList4.DataValueField = "Cmp_No";
                 DropDownList4.DataTextField = "Cmp_Nm";
                 DropDownList4.DataSource = db.MainCmpnam.ToList();
                 DropDownList4.DataBind();
-<<<<<<< HEAD
                 TextBox28.Text = DropDownList4.SelectedValue;
 
 
@@ -44,44 +35,12 @@ namespace mid
 
                 ViewState["ID"] = 0;
 
-=======
-                TextBox17.Text = DropDownList4.SelectedValue;
-
-
-                DropDownList5.DataValueField = "Brn_No";
-                DropDownList5.DataTextField = "Brn_NmAr";
-                DropDownList5.DataSource = db.MainBranch.ToList();
-                DropDownList5.DataBind();
-                TextBox26.Text = DropDownList5.SelectedValue;
-
-                ViewState["ID"] = 0;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 TextBox1.Text = (1).ToString();
                 load_tree();
             }
 
             int no = int.Parse(DropDownList4.SelectedValue);
-<<<<<<< HEAD
             
-=======
-            //foreach (MtsSuplir sup in db.MtsSuplir.Where(o => o.Cmp_No == no && o.Parnt_Sup == 0))
-            //{
-            //    TreeNode node = new TreeNode();
-            //    node.Text = sup.Sup_NmAr.ToString();
-            //    node.Value = sup.Sup_No.ToString();
-            //    //you can affect the node.NavigateUrl
-
-            //    node.PopulateOnDemand = true;
-            //    TreeView1.Nodes.Add(node);
-            //}
-            ////Session.Add("tree_node_path", " ");
-
-            //TreeView1.CollapseAll();
-
-
-            //to calculate new account number
-
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             int id = int.Parse(ViewState["ID"].ToString());
             int count = db.MtsSuplir.Count(o => o.Cmp_No == no && o.Parnt_Sup == id);
             long new_id;
@@ -139,11 +98,7 @@ namespace mid
             cn.Sup_No = Convert.ToInt16(TextBox14.Text);
             if (string.IsNullOrEmpty(RadioButtonList1.SelectedValue) || string.IsNullOrWhiteSpace(RadioButtonList1.SelectedValue)) { }
             else
-<<<<<<< HEAD
                 cn.Level_Status = Convert.ToInt16(RadioButtonList1.SelectedIndex);
-=======
-                cn.Level_Status = Convert.ToInt16(RadioButtonList1.SelectedValue);
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
 
             cn.Sup_NmAr = TextBox15.Text;
             cn.Sup_NmEn = TextBox2.Text;
@@ -164,14 +119,9 @@ namespace mid
             if (string.IsNullOrEmpty(TextBox12.Text) || string.IsNullOrWhiteSpace(TextBox12.Text)) { }
             else
                 cn.Fbal_Db = Convert.ToDecimal(TextBox12.Text);
-<<<<<<< HEAD
             if (string.IsNullOrEmpty(TextBox26.Text) || string.IsNullOrWhiteSpace(TextBox26.Text)) { }
             else
                 cn.Brn_No = Convert.ToInt32(TextBox26.Text);
-=======
-
-            cn.Brn_No = Convert.ToInt32(TextBox26.Text);
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             cn.Parnt_Sup = Convert.ToInt16(ViewState["ID"]);
 
             DropDownList1.SelectedValue = Convert.ToString(cn.SupCtg_No);
@@ -269,7 +219,6 @@ namespace mid
             //try
             //{
 
-<<<<<<< HEAD
             //Session["tree_node_path"] = TreeView1.SelectedNode.ValuePath;
             int id = int.Parse(TreeView1.SelectedNode.Value);
             ViewState["ID"] = id;
@@ -310,48 +259,6 @@ namespace mid
 
 
             TextBox14.Text = Convert.ToString(new_id);
-=======
-                //Session["tree_node_path"] = TreeView1.SelectedNode.ValuePath;
-                int id = int.Parse(TreeView1.SelectedNode.Value);
-                ViewState["ID"] = id;
-              
-                int no = int.Parse(DropDownList4.SelectedValue);
-                int count = db.MtsSuplir.Count(o => o.Cmp_No == no && o.Parnt_Sup == id);
-                long new_id;
-                if (count > 0)
-                {
-                    new_id = db.MtsSuplir.Where(o => o.Cmp_No == no && o.Parnt_Sup == id).Max(u => u.Sup_No) + 1;
-                }
-                else
-                {
-
-                    if (count < 10)
-                    {
-                        if (id < 10)
-                        {
-                            new_id = int.Parse(string.Concat("0", id.ToString(), "0", count + 1));
-                        }
-                        else
-                        {
-                            new_id = int.Parse(string.Concat(id.ToString(), "0", count + 1));
-                        }
-                    }
-                    else
-                    {
-                        if (id < 10)
-                        {
-                            new_id = int.Parse(string.Concat("0", id.ToString(), count + 1));
-                        }
-                        else
-                        {
-                            new_id = int.Parse(string.Concat(id.ToString(), count + 1));
-                        }
-                    }
-                }
-
-
-                TextBox14.Text = Convert.ToString(new_id);
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
 
             if (int.Parse(ViewState["ID"].ToString()) == 0)
             {
@@ -365,7 +272,6 @@ namespace mid
             }
 
             DataSet dataSet = new DataSet("myDataSet");
-<<<<<<< HEAD
             dataSet.Tables.Add(new DataTable());
 
             //Setup the table columns.
@@ -400,42 +306,6 @@ namespace mid
             GridView1.DataBind();
         }
         //catch { }
-=======
-                dataSet.Tables.Add(new DataTable());
-
-                //Setup the table columns.
-
-
-
-                dataSet.Tables[0].Columns.Add("الشهر", typeof(string));
-                dataSet.Tables[0].Columns.Add("الحركة مدين", typeof(int));
-                dataSet.Tables[0].Columns.Add("الحركة دائن", typeof(int));
-                dataSet.Tables[0].Columns.Add("الرصيد الحالي", typeof(int));
-
-                for (int i = 1; i <= 12; i++)
-                {
-                    var result = db.select_grid_mtssuplier(id, i, no).SingleOrDefault();
-                    DataRow row = dataSet.Tables[0].NewRow();
-                    row["الشهر"] = result.month == null ? "" : result.month;
-                    row["الحركة مدين"] = result.debit == null ? 0 : result.debit;
-                    row["الحركة دائن"] = result.credit == null ? 0 : result.credit;
-                    row["الرصيد الحالي"] = result.rassid == null ? 0 : result.rassid;
-
-                    dataSet.Tables[0].Rows.Add(row);
-                }
-                DataRow total = dataSet.Tables[0].NewRow();
-                total["الشهر"] = "الإجمالي";
-                total["الحركة مدين"] = dataSet.Tables[0].Compute("sum([الحركة مدين])", "");
-                total["الحركة دائن"] = dataSet.Tables[0].Compute("sum([الحركة دائن])", "");
-                total["الرصيد الحالي"] = dataSet.Tables[0].Compute("sum([الرصيد الحالي])", "");
-                dataSet.Tables[0].Rows.Add(total);
-
-                GridView1.DataSource = dataSet.Tables[0];
-
-                GridView1.DataBind();
-            }
-            //catch { }
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
 
         protected void load_tree(/*int id*/)
         {
@@ -469,12 +339,9 @@ namespace mid
             //Session.Add("tree_node_path", " ");
             TreeView1.CollapseAll();
         }
-<<<<<<< HEAD
         //protected void DropDownList5_SelectedIndexChanged(object sender, EventArgs e)
         //{
         //}
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     }
 }
 

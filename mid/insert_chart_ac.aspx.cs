@@ -17,7 +17,6 @@ namespace mid
         {
             if (!Page.IsPostBack)
             {
-<<<<<<< HEAD
                 DropDownList1.DataTextField = "Cmp_Nm";
                 DropDownList1.DataValueField = "Cmp_No";
                 DropDownList1.DataSource = db.MainCmpnam.ToList();
@@ -31,21 +30,6 @@ namespace mid
                 DropDownList2.DataBind();
                 ViewState["ID"] = 0;
                 TextBox14.Text = (1).ToString();
-=======
-                DropDownList2.DataValueField = "Costcntr_No";
-                DropDownList2.DataTextField = "Costcntr_Nmar";
-                DropDownList2.DataSource = db.MtsCostcntr.ToList();
-                DropDownList2.DataBind();
-
-
-                DropDownList3.DataValueField = "CLsacc_No";
-                DropDownList3.DataTextField = "CLsacc_NmAr";
-                DropDownList3.DataSource = db.MtsClosAcnt.ToList();
-                DropDownList3.DataBind();
-
-                ViewState["ID"] = "0";
-                TextBox9.Text = (1).ToString();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 
                 foreach (MtsChartAc chart in db.MtsChartAc.Where(o => o.Parnt_Acc == 0))
                 {
@@ -93,22 +77,14 @@ namespace mid
                         }
                     }
                 }
-<<<<<<< HEAD
                 TextBox13.Text = new_id.ToString();
-=======
-                TextBox2.Text = new_id.ToString();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             }
         }
 
         protected void Button3_Click(object sender, EventArgs e)
         {
             ViewState["ID"] = "0";
-<<<<<<< HEAD
             TextBox14.Text = (1).ToString();
-=======
-            TextBox9.Text = (1).ToString();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             int id = int.Parse(ViewState["ID"].ToString());
             int count = db.MtsChartAc.Count(o => o.Parnt_Acc == id);
             int new_id;
@@ -134,11 +110,7 @@ namespace mid
                     new_id = int.Parse(string.Concat(id.ToString(), count + 1));
                 }
             }
-<<<<<<< HEAD
             TextBox13.Text = new_id.ToString();
-=======
-            TextBox2.Text = new_id.ToString();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         }
 
         //protected void load_tree(int id)
@@ -175,7 +147,6 @@ namespace mid
                     var result = db.MtsChartAc.Where(o=>o.Acc_No==id).SingleOrDefault();
                     cn.Level_No = Convert.ToInt16(result.Level_No + 1);
                 }
-<<<<<<< HEAD
                 cn.Acc_No = long.Parse(TextBox13.Text);
                 cn.Level_Status = Convert.ToInt16(RadioButtonList3.SelectedValue);
                 cn.Acc_Nm = TextBox15.Text;
@@ -190,22 +161,6 @@ namespace mid
                 if (string.IsNullOrEmpty(TextBox17.Text) || string.IsNullOrWhiteSpace(TextBox17.Text)) { }
                 else
                 cn.Fbal_CR = Convert.ToDecimal(TextBox17.Text);
-=======
-                cn.Acc_No = long.Parse(TextBox2.Text);
-                cn.Level_Status = Convert.ToInt16(RadioButtonList1.SelectedValue);
-                cn.Acc_Nm = TextBox3.Text;
-                cn.Acc_NmEng = TextBox4.Text;
-                if(CheckBox1.Checked)
-                cn.Costcntr_No = Convert.ToInt16(DropDownList2.SelectedValue);
-                cn.Clsacc_No1 = Convert.ToInt16(DropDownList3.SelectedValue);
-                cn.Acc_Ntr = Convert.ToInt16(RadioButtonList2.SelectedValue);
-                 if (string.IsNullOrEmpty(TextBox5.Text)||string.IsNullOrWhiteSpace(TextBox5.Text)) { }
-                 else
-                 cn.Fbal_DB = Convert.ToDecimal(TextBox5.Text);
-                if (string.IsNullOrEmpty(TextBox6.Text) || string.IsNullOrWhiteSpace(TextBox6.Text)) { }
-                else
-                cn.Fbal_CR = Convert.ToDecimal(TextBox6.Text);
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 //cn.Parnt_Acc = Convert.ToInt16(TextBox1.Text);
                 cn.Parnt_Acc = Convert.ToInt32(ViewState["ID"]);
 
@@ -240,7 +195,6 @@ namespace mid
                 int id = int.Parse(TreeView1.SelectedNode.Value);
                 ViewState["ID"] = id;
                 var cn = db.MtsChartAc.Where(o=>o.Acc_No==id).SingleOrDefault();
-<<<<<<< HEAD
                 TextBox13.Text = cn.Parnt_Acc.ToString();
                 if (cn.Parnt_Acc > 0)
                 {
@@ -249,16 +203,6 @@ namespace mid
                 }
                 else
                     TextBox15.Text = string.Empty;
-=======
-                TextBox7.Text = cn.Parnt_Acc.ToString();
-                if (cn.Parnt_Acc > 0)
-                {
-                    var parcn = db.MtsChartAc.Where(o => o.Acc_No == cn.Parnt_Acc).SingleOrDefault();
-                    TextBox8.Text = parcn.Acc_Nm;
-                }
-                else
-                    TextBox8.Text = string.Empty;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
 
              id = int.Parse(ViewState["ID"].ToString());
             int count = db.MtsChartAc.Count(o => o.Parnt_Acc == id);
@@ -292,29 +236,17 @@ namespace mid
                     }
                 }
             }
-<<<<<<< HEAD
                 TextBox13.Text = new_id.ToString();
 
                 if (int.Parse(ViewState["ID"].ToString()) == 0)
                 {
                     TextBox14.Text = (1).ToString();
-=======
-                TextBox2.Text = new_id.ToString();
-
-                if (int.Parse(ViewState["ID"].ToString()) == 0)
-                {
-                    TextBox9.Text = (1).ToString();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 }
                 else
                 {
                     int i = int.Parse(ViewState["ID"].ToString());
                     var result = db.MtsChartAc.Where(o=>o.Acc_No==i).SingleOrDefault();
-<<<<<<< HEAD
                     TextBox14.Text = (Convert.ToInt16(result.Level_No + 1)).ToString();
-=======
-                    TextBox9.Text = (Convert.ToInt16(result.Level_No + 1)).ToString();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 }
 
 
@@ -399,7 +331,6 @@ namespace mid
                 TreeView1.Nodes.Add(node);
             }
         }
-<<<<<<< HEAD
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
         {
             int no = int.Parse(DropDownList1.SelectedValue);
@@ -414,8 +345,6 @@ namespace mid
         {
 
         }
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
 
     }
 }

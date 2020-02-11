@@ -31,11 +31,7 @@ namespace mid
             }
         }
 
-<<<<<<< HEAD
         protected void Button3_Click(object sender, EventArgs e)
-=======
-        protected void Button1_Click(object sender, EventArgs e)
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         {
             InvAstMarket cn = new InvAstMarket();
             cn.Mrkt_No = Convert.ToInt16(TextBox1.Text);

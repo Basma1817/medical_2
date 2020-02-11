@@ -19,17 +19,13 @@ namespace mid
                 TextBox14.Enabled = false;
                 TextBox1.Enabled = false;
 
-<<<<<<< HEAD
 
                 TextBox1.Enabled = false;
                 TextBox14.Enabled = false;
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 DropDownList4.DataValueField = "Cmp_No";
                 DropDownList4.DataTextField = "Cmp_Nm";
                 DropDownList4.DataSource = db.MainCmpnam.ToList();
                 DropDownList4.DataBind();
-<<<<<<< HEAD
                 TextBox28.Text = DropDownList4.SelectedValue;
 
 
@@ -40,15 +36,6 @@ namespace mid
                 //TextBox26.Text = DropDownList5.SelectedValue;
 
 
-=======
-                TextBox17.Text = DropDownList4.SelectedValue;
-                
-                DropDownList5.DataValueField = "Brn_No";
-                DropDownList5.DataTextField = "Brn_NmAr";
-                DropDownList5.DataSource = db.MainBranch.ToList();
-                DropDownList5.DataBind();
-                
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 int id = int.Parse(Request.QueryString["no"]);
                 var cn = db.MtsSuplir.Where(o => o.Sup_No == id).SingleOrDefault();
                 ViewState.Add("id", id);
@@ -164,11 +151,7 @@ namespace mid
         }
         protected void DropDownList4_SelectedIndexChanged(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             TextBox28.Text = DropDownList4.SelectedValue;
-=======
-            TextBox17.Text = DropDownList4.SelectedValue;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             int no = int.Parse(DropDownList4.SelectedValue);
             DropDownList5.DataValueField = "Brn_No";
             DropDownList5.DataTextField = "Brn_NmAr";

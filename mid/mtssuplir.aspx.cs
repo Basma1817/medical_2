@@ -271,11 +271,7 @@ namespace mid
             TextBox11.Text = cn.Fbal_CR.ToString();
             TextBox12.Text = cn.Fbal_Db.ToString();
             RadioButtonList1.SelectedValue = cn.Level_Status.ToString();
-<<<<<<< HEAD
             //TextBox26.Text = cn.Brn_No.ToString();
-=======
-            TextBox26.Text = cn.Brn_No.ToString();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             var cn1 = db.MtsSuplirOthr.Where(o => o.Sup_No == id).SingleOrDefault();
             if (cn1 != null)
             {

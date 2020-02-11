@@ -17,7 +17,6 @@ namespace mid
             DropDownList1.DataSource = db.MainCmpnam.ToList();
             DropDownList1.DataBind();
 
-<<<<<<< HEAD
 
             int no = int.Parse(DropDownList1.SelectedValue);
 
@@ -32,13 +31,6 @@ namespace mid
                         select new
                         {
                             البيان_بالانجليزيه = p.RefTyp_NmEn,
-=======
-            var query = from p in db.InvAstRefTyp
-                        
-                        select new
-                        {
-                            البيان_بالانجليزيه = p.RefTyp_Nm,
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                             البيان_بالعربيه = p.RefTyp_NmAr,
                             الرقم = p.RefTyp_No
                         };
@@ -55,11 +47,7 @@ namespace mid
                             where p.RefTyp_No == id
                             select new
                             {
-<<<<<<< HEAD
                                 البيان_بالانجليزيه = p.RefTyp_NmEn,
-=======
-                                البيان_بالانجليزيه = p.RefTyp_Nm,
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                                 البيان_بالعربيه = p.RefTyp_NmAr,
                                 الرقم = p.RefTyp_No
 
@@ -86,11 +74,7 @@ namespace mid
 
                             select new
                             {
-<<<<<<< HEAD
                                 البيان_بالانجليزيه = p.RefTyp_NmEn,
-=======
-                                البيان_بالانجليزيه = p.RefTyp_Nm,
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                                 البيان_بالعربيه = p.RefTyp_NmAr,
                                 الرقم = p.RefTyp_No
                             };
@@ -105,11 +89,7 @@ namespace mid
                             where p.RefTyp_No == id
                             select new
                             {
-<<<<<<< HEAD
                                 البيان_بالانجليزيه = p.RefTyp_NmEn,
-=======
-                                البيان_بالانجليزيه = p.RefTyp_Nm,
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                                 البيان_بالعربيه = p.RefTyp_NmAr,
                                 الرقم = p.RefTyp_No
                             };
@@ -124,7 +104,6 @@ namespace mid
         {
             Response.Redirect("reftypeٌٌReport.aspx");
         }
-<<<<<<< HEAD
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
         {
             int no = int.Parse(DropDownList1.SelectedValue);
@@ -139,7 +118,5 @@ namespace mid
         {
 
         }
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     }
 }

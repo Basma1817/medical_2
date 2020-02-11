@@ -4,7 +4,6 @@
     
 
     <section class="content-header">
-<<<<<<< HEAD
         <div class="panel panel-default col-lg-12">
             <div class="panel-body">
                 <h2 class="panel-title" style="font-size: 29px;">اقسام الشركة</h2>
@@ -45,21 +44,6 @@
 
 
        
-=======
-       
-        <ol class="breadcrumb"  style="width: 1050px;"> 
-             <h1>  <small>اعدادات الموظفين > اقسام الشركه</small></h1>
-        </ol>
-
-         <div style="margin:0 0 2% 55%">
-        <asp:Label ID="Label2" runat="server" Text="اسم الشركة"></asp:Label>
-            <asp:DropDownList ID="DropDownList1" runat="server">
-                <asp:ListItem>--اختر--</asp:ListItem>
-            </asp:DropDownList>
-        </div>
-
-        <div class="wrapper" id="app" style="float: left; width: 100%; margin-right: 30px;">
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             <div style="direction: rtl; padding: 10px 10px 10px 55px">
                 <asp:Label ID="Label1" runat="server" Text="اقسام الشركه"></asp:Label>
 
@@ -79,14 +63,7 @@
 
                 <asp:GridView CssClass="table table-striped" ID="GridView1" BackColor="White" Style="direction: ltr; font-size: 14px;" GridLines="None" runat="server" AllowPaging="True" OnPageIndexChanging="GridView1_PageIndexChanging" OnSelectedIndexChanging="GridView1_SelectedIndexChanging" >
 
-<<<<<<< HEAD
      
-=======
-       <%-- <Columns>
-            <asp:HyperLinkField DataNavigateUrlFields="الرقم" DataNavigateUrlFormatString="updatedele_depart.aspx?no={0}" HeaderText="تعديل و حذف" NavigateUrl="~/updatedele_depart.aspx" Text="تعديل و حذف" />
-        </Columns>--%>
-
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                      <Columns>
       <asp:HyperLinkField ControlStyle-BackColor="red" ControlStyle-ForeColor="White" ControlStyle-CssClass="p-2" DataNavigateUrlFields="الرقم"
             DataNavigateUrlFormatString="department_delete.aspx?no={0}"
@@ -107,11 +84,7 @@
     </Columns>
     </asp:GridView>
     </div>
-<<<<<<< HEAD
   
-=======
-    </div>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     </section>
 
 </asp:Content>

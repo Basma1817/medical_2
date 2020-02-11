@@ -1,7 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="asets_status.aspx.cs" Inherits="mid.asets_status" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-<<<<<<< HEAD
          <section class="content-header">
          <div class="panel panel-default col-lg-12">
          <div class="panel-body">
@@ -41,21 +40,6 @@
             </div>
 
      
-=======
-
-     <section class="content-header">
-       
-        <ol class="breadcrumb"> 
-             <h1 style="padding-left: 800px;">  <small style="font-size: 80%; font-weight: 400;}">اعدادات الاصول > حالة الاصول الثابتة</small></h1>
-        </ol>
-          <div style="margin:0 0 2% 55%">
-        <asp:Label ID="Label2" runat="server" Text="اسم الشركة"></asp:Label>
-            <asp:DropDownList ID="DropDownList1" runat="server">
-                <asp:ListItem>--اختر--</asp:ListItem>
-            </asp:DropDownList>
-        </div>
-        <div class="wrapper" id="app" style="float: left; width: 100%; margin-right: 30px;">
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             <div style="direction: rtl; padding: 10px 10px 10px 55px">
                 <asp:Label ID="Label1" runat="server" Text="حالة الاصول "></asp:Label>
 
@@ -77,13 +61,7 @@
                 <asp:GridView CssClass="table table-striped" ID="GridView1" BackColor="White" Style="direction: ltr; font-size: 14px;" GridLines="None" runat="server" AllowPaging="True" OnPageIndexChanging="GridView1_PageIndexChanging" OnSelectedIndexChanging="GridView1_SelectedIndexChanging" >
 
 
-<<<<<<< HEAD
     
-=======
-      <%--  <Columns>
-            <asp:HyperLinkField DataNavigateUrlFields="رقم_الأصل" HeaderText="تعديل و حذف" Text="تعديل و حذف" DataNavigateUrlFormatString="updatedele_asets_status.aspx?no={0}" NavigateUrl="~/updatedele_asets_status.aspx" />
-        </Columns>--%>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         <Columns>
               <asp:HyperLinkField ControlStyle-BackColor="red" ControlStyle-ForeColor="White" ControlStyle-CssClass="p-2" DataNavigateUrlFields="رقم_الأصل"
             DataNavigateUrlFormatString="asets_status_delete.aspx?no={0}"
@@ -105,10 +83,6 @@
 
     </asp:GridView>
 </div>
-<<<<<<< HEAD
     
-=======
-    </div>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     </section>
 </asp:Content>

@@ -17,7 +17,6 @@ namespace mid
             DropDownList1.DataSource = db.MainCmpnam.ToList();
 
             DropDownList1.DataBind();
-<<<<<<< HEAD
             //var query = from p in db.InvAstAreaxxxx
             //                //where p.Area_No == id
             //            select new
@@ -28,23 +27,10 @@ namespace mid
             //            };
             //GridView1.DataSource = query.ToList();
             //GridView1.DataBind();
-=======
-            var query = from p in db.InvAstArea
-                        //where p.Area_No == id
-                        select new
-                        {
-                            الإسم_بالإنجليزي = p.Area_NmEN,
-                            الإسم_بالعربي = p.Area_NmAR,
-                            رقم_المنطقة = p.Area_No
-                        };
-            GridView1.DataSource = query.ToList();
-            GridView1.DataBind();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             //try
             //{
             //    int id = int.Parse(TextBox1.Text);
@@ -63,26 +49,6 @@ namespace mid
             //{
 
             //}
-=======
-            try
-            {
-                int id = int.Parse(TextBox1.Text);
-                var query = from p in db.InvAstArea
-                            where p.Area_No == id
-                            select new
-                            {
-                                الإسم_بالإنجليزي = p.Area_NmEN,
-                                الإسم_بالعربي = p.Area_NmAR,
-                                رقم_المنطقة = p.Area_No
-                            };
-                GridView1.DataSource = query.ToList();
-                GridView1.DataBind();
-            }
-            catch
-            {
-
-            }
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         }
 
         protected void Button2_Click(object sender, EventArgs e)
@@ -95,7 +61,6 @@ namespace mid
             GridView1.PageIndex = e.NewPageIndex;
             if (string.IsNullOrEmpty(TextBox1.Text) || string.IsNullOrWhiteSpace(TextBox1.Text))
             {
-<<<<<<< HEAD
                 //var query = from p in db.InvAstAreaxxxx
                 //                //where p.Area_No == id
                 //            select new
@@ -106,24 +71,11 @@ namespace mid
                 //            };
                 //GridView1.DataSource = query.ToList();
                 //GridView1.DataBind();
-=======
-                var query = from p in db.InvAstArea
-                                //where p.Area_No == id
-                            select new
-                            {
-                                الإسم_بالإنجليزي = p.Area_NmEN,
-                                الإسم_بالعربي = p.Area_NmAR,
-                                رقم_المنطقة = p.Area_No
-                            };
-                GridView1.DataSource = query.ToList();
-                GridView1.DataBind();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             }
             else
             {
                 try
                 {
-<<<<<<< HEAD
                     //int id = int.Parse(TextBox1.Text);
                     //var query = from p in db.InvAstAreaxxxx
                     //            where p.Area_No == id
@@ -135,19 +87,6 @@ namespace mid
                     //            };
                     //GridView1.DataSource = query.ToList();
                     //GridView1.DataBind();
-=======
-                    int id = int.Parse(TextBox1.Text);
-                    var query = from p in db.InvAstArea
-                                where p.Area_No == id
-                                select new
-                                {
-                                    الإسم_بالإنجليزي = p.Area_NmEN,
-                                    الإسم_بالعربي = p.Area_NmAR,
-                                    رقم_المنطقة = p.Area_No
-                                };
-                    GridView1.DataSource = query.ToList();
-                    GridView1.DataBind();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 }
                 catch
                 {

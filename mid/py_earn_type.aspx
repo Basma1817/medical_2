@@ -1,7 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="py_earn_type.aspx.cs" Inherits="mid.py_earn_type" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-<<<<<<< HEAD
          <section class="content-header">
          <div class="panel panel-default col-lg-12">
          <div class="panel-body">
@@ -44,19 +43,6 @@
 
 
    
-=======
-     <section class="content-header">
-         <ol class="breadcrumb" style="width: 1050px;">
-            <h1><small>اعدادات الموظفين > انواع الاستحقاقات  </small></h1>
-        </ol>
-          <div style="margin:0 0 2% 55%">
-        <asp:Label ID="Label2" runat="server" Text="اسم الشركة"></asp:Label>
-            <asp:DropDownList ID="DropDownList1" runat="server">
-                <asp:ListItem>--اختر--</asp:ListItem>
-            </asp:DropDownList>
-        </div>
-   <div class="wrapper" id="app" style="float: left; width: 100%; margin-right: 30px;">
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             <div style="direction: rtl; padding: 10px 10px 10px 55px">
                 <asp:Label ID="Label1" runat="server" Text="انواع الاستحقاقات"></asp:Label>
 
@@ -73,13 +59,6 @@
     <div style="width: 100px; position: center; height: 935px; justify-content: center; width: 100%; padding-left: 55px;padding-right: 40px;text-align: center;">
                 <asp:GridView CssClass="table table-striped" ID="GridView1" BackColor="White" Style="direction: ltr; font-size: 14px;" GridLines="None" runat="server" AllowPaging="True" OnPageIndexChanging="GridView1_PageIndexChanging">
   
-<<<<<<< HEAD
-=======
-      <%--  <Columns>
-            <asp:HyperLinkField DataNavigateUrlFields="الرقم" DataNavigateUrlFormatString="updatedele_py_earn_type.aspx?no={0}" HeaderText="تعديل و حذف" NavigateUrl="~/updatedele_py_earn_type.aspx" Text="تعديل و حذف" />
-        </Columns>--%>
-
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                      <Columns>
 <asp:HyperLinkField ControlStyle-BackColor="red" ControlStyle-ForeColor="White" ControlStyle-CssClass="p-2" DataNavigateUrlFields="الرقم" 
             DataNavigateUrlFormatString="py_earn_type_delete.aspx?no={0}"

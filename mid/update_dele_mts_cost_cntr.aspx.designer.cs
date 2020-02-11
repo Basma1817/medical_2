@@ -13,7 +13,6 @@ namespace mid {
     public partial class update_dele_mts_cost_cntr {
         
         /// <summary>
-<<<<<<< HEAD
         /// Label17 control.
         /// </summary>
         /// <remarks>
@@ -150,19 +149,12 @@ namespace mid {
         
         /// <summary>
         /// TextBox1 control.
-=======
-        /// TreeView1 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
-=======
-        protected global::System.Web.UI.WebControls.TreeView TreeView1;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         
         /// <summary>
         /// CheckBox1 control.
@@ -174,53 +166,31 @@ namespace mid {
         protected global::System.Web.UI.WebControls.CheckBox CheckBox1;
         
         /// <summary>
-<<<<<<< HEAD
         /// Label6 control.
-=======
-        /// TextBox1 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label Label6;
         
         /// <summary>
         /// TextBox7 control.
-=======
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
-        
-        /// <summary>
-        /// DropDownList1 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.TextBox TextBox7;
         
         /// <summary>
         /// Label8 control.
-=======
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
-        
-        /// <summary>
-        /// DropDownList2 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label Label8;
-=======
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList2;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         
         /// <summary>
         /// TextBox2 control.
@@ -232,21 +202,13 @@ namespace mid {
         protected global::System.Web.UI.WebControls.TextBox TextBox2;
         
         /// <summary>
-<<<<<<< HEAD
         /// Label2 control.
-=======
-        /// TextBox3 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label Label2;
-=======
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         
         /// <summary>
         /// TextBox5 control.
@@ -258,7 +220,6 @@ namespace mid {
         protected global::System.Web.UI.WebControls.TextBox TextBox5;
         
         /// <summary>
-<<<<<<< HEAD
         /// Label3 control.
         /// </summary>
         /// <remarks>
@@ -278,66 +239,38 @@ namespace mid {
         
         /// <summary>
         /// Label7 control.
-=======
-        /// TextBox6 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label Label7;
         
         /// <summary>
         /// TextBox6 control.
-=======
-        protected global::System.Web.UI.WebControls.TextBox TextBox6;
-        
-        /// <summary>
-        /// TextBox4 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.TextBox TextBox6;
         
         /// <summary>
         /// GridView1 control.
-=======
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
-        
-        /// <summary>
-        /// Button1 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.GridView GridView1;
         
         /// <summary>
         /// TreeView1 control.
-=======
-        protected global::System.Web.UI.WebControls.Button Button1;
-        
-        /// <summary>
-        /// Button3 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.TreeView TreeView1;
-=======
-        protected global::System.Web.UI.WebControls.Button Button3;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     }
 }

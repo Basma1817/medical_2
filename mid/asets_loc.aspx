@@ -1,6 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="asets_loc.aspx.cs" Inherits="mid.asets_loc" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-<<<<<<< HEAD
          <section class="content-header">
          <div class="panel panel-default col-lg-12">
          <div class="panel-body">
@@ -40,20 +39,6 @@
         </div>
             </div>
               
-=======
-    <section class="content-header">
-       
-        <ol class="breadcrumb"> 
-             <h1 style="padding-left: 750px;">  <small >اعدادات الاصول >  مواقع الاصول الثابتة</small></h1>
-        </ol>
-         <div style="margin:0 0 2% 55%">
-        <asp:Label ID="Label2" runat="server" Text="اسم الشركة"></asp:Label>
-            <asp:DropDownList ID="DropDownList1" runat="server">
-                <asp:ListItem>--اختر--</asp:ListItem>
-            </asp:DropDownList>
-        </div>
-   <div class="wrapper" id="app" style="float: left; width: 100%; margin-right: 30px;">
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             <div style="direction: rtl; padding: 10px 10px 10px 55px">
                 <asp:Label ID="Label1" runat="server" Text="مواقع الاصول"></asp:Label>
 
@@ -103,11 +88,7 @@
     </asp:GridView>
   </div>
        
-<<<<<<< HEAD
       
-=======
-        </div>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     </section>
 
 </asp:Content>

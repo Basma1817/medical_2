@@ -9,7 +9,6 @@
         </div>
         </div>
              
-<<<<<<< HEAD
           <div class="row">
         <div class="col-lg-5">
         </div>
@@ -22,27 +21,10 @@
         <div  class="col-md-2">
             <div class="form-group"style="display: flex; justify-content: space-between">
                 <asp:Label ID="Label4" runat="server" Text="النشاط"></asp:Label>
-=======
-         <div class="row">
-
-        <div class="col-lg-5" style="display: flex; justify-content: flex-end">
-          
-        </div>
-         <div class="col-lg-1">
-            <div class="form-group">
-                <asp:Label ID="Label17" runat="server" Text="رقم النشاط"></asp:Label>
-                <asp:TextBox ID="TextBox2" runat="server" CssClass="form-control"></asp:TextBox>
-            </div>
-        </div>
-        <div  class="col-md-2">
-            <div class="form-group">
-                <asp:Label ID="Label3" runat="server" Text="النشاط"></asp:Label>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 <asp:DropDownList ID="DropDownList2" runat="server" CssClass="form-control" AutoPostBack="true">
                 </asp:DropDownList>
             </div>
         </div>
-<<<<<<< HEAD
         <div class="col-lg-1">
             <div class="form-group" style="display: flex; justify-content: space-between">
                 <asp:Label ID="Label12" runat="server" Text="الرقم"></asp:Label>
@@ -52,28 +34,12 @@
             <div class="col-lg-3">
             <div class="form-group" style="display: flex; justify-content: space-between">
                 <asp:Label ID="Label5" runat="server" Text="الشركة"></asp:Label>
-=======
-
-        <div class="col-lg-1">
-            <div class="form-group">
-                <asp:Label ID="Label12" runat="server" Text="رقم الشركة"></asp:Label>
-                <asp:TextBox ID="TextBox3" runat="server" CssClass="form-control"></asp:TextBox>
-            </div>
-          </div>
-              <div class="col-lg-3">
-            <div class="form-group">
-                <asp:Label ID="Label4" runat="server" Text="أسم الشركة"></asp:Label>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 <asp:DropDownList ID="DropDownList1" runat="server" CssClass="form-control"
                 AutoPostBack="true" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
                 </asp:DropDownList>
             </div>
         </div>
-<<<<<<< HEAD
             </div>
-=======
-        </div>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
              <div class="box-body">
                 <div>
                    

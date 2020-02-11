@@ -36,7 +36,6 @@
           <Property Name="Age_Nm" Type="nvarchar" MaxLength="50" />
           <Property Name="cmp_no" Type="int" />
         </EntityType>
-<<<<<<< HEAD
         <EntityType Name="AstCity">
           <Key>
             <PropertyRef Name="Cmp_No" />
@@ -55,8 +54,6 @@
           <Property Name="Brn_No" Type="int" />
           <Property Name="Cntry_No" Type="smallint" />
         </EntityType>
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         <EntityType Name="AstCompany">
           <Key>
             <PropertyRef Name="Cmp_No" />
@@ -668,22 +665,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.FixdDepDtl' does not have a primary k
           <Property Name="State_NmEn" Type="nvarchar" MaxLength="15" />
           <Property Name="cmp_no" Type="int" />
         </EntityType>
-<<<<<<< HEAD
-=======
-        <EntityType Name="InvAstArea">
-          <Key>
-            <PropertyRef Name="Area_No" />
-          </Key>
-          <Property Name="ID_NO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Area_No" Type="smallint" Nullable="false" />
-          <Property Name="Area_NmAR" Type="nvarchar" MaxLength="50" />
-          <Property Name="Area_NmEN" Type="nvarchar" MaxLength="50" />
-          <Property Name="Cntry_No" Type="smallint" />
-          <Property Name="City_No" Type="smallint" />
-          <Property Name="Slm_No" Type="smallint" />
-          <Property Name="cmp_no" Type="int" />
-        </EntityType>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         <EntityType Name="InvAstCardTyp">
           <Key>
             <PropertyRef Name="Card_ID" />
@@ -692,21 +673,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.FixdDepDtl' does not have a primary k
           <Property Name="Card_Typ" Type="nvarchar" MaxLength="50" />
           <Property Name="cmp_no" Type="int" />
         </EntityType>
-<<<<<<< HEAD
-=======
-        <EntityType Name="InvAstCity">
-          <Key>
-            <PropertyRef Name="City_No" />
-          </Key>
-          <Property Name="ID_NO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="City_No" Type="smallint" Nullable="false" />
-          <Property Name="Brn_No" Type="int" />
-          <Property Name="City_NmAR" Type="nvarchar" MaxLength="30" />
-          <Property Name="City_NmEN" Type="nvarchar" MaxLength="30" />
-          <Property Name="Cntry_No" Type="smallint" />
-          <Property Name="cmp_no" Type="int" />
-        </EntityType>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         <EntityType Name="InvAstCntry">
           <Key>
             <PropertyRef Name="Cntry_No" />
@@ -786,7 +752,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.FixdDepDtl' does not have a primary k
         </EntityType>
         <EntityType Name="InvAstRefTyp">
           <Key>
-<<<<<<< HEAD
             <PropertyRef Name="Cmp_No" />
             <PropertyRef Name="Actvty_No" />
             <PropertyRef Name="RefTyp_No" />
@@ -800,26 +765,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.FixdDepDtl' does not have a primary k
           <Property Name="Level_Status" Type="smallint" />
           <Property Name="RefTyp_NmAr" Type="nvarchar" MaxLength="30" />
           <Property Name="RefTyp_NmEn" Type="nvarchar" MaxLength="30" />
-=======
-            <PropertyRef Name="RefTyp_No" />
-          </Key>
-          <Property Name="ID_NO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Main_Reftyp" Type="smallint" Nullable="false" />
-          <Property Name="RefTyp_No" Type="smallint" Nullable="false" />
-          <Property Name="RefTyp_Nm" Type="nvarchar" MaxLength="30" />
-          <Property Name="RefTyp_NmAr" Type="nvarchar" MaxLength="30" />
-          <Property Name="cmp_no" Type="int" />
-        </EntityType>
-        <EntityType Name="InvAstRefTypMain">
-          <Key>
-            <PropertyRef Name="Main_Reftyp" />
-          </Key>
-          <Property Name="ID_NO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Main_Reftyp" Type="smallint" Nullable="false" />
-          <Property Name="RefTyp_Nm" Type="nvarchar" MaxLength="30" />
-          <Property Name="RefTyp_NmAr" Type="nvarchar" MaxLength="30" />
-          <Property Name="cmp_no" Type="int" />
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         </EntityType>
         <EntityType Name="InvAstSalesman">
           <Key>
@@ -879,21 +824,15 @@ warning 6002: The table/view 'ICDBTrdA.dbo.FixdDepDtl' does not have a primary k
         </EntityType>
         <EntityType Name="InvLoddtl">
           <Key>
-<<<<<<< HEAD
             <PropertyRef Name="Cmp_No" />
             <PropertyRef Name="Actvty_No" />
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             <PropertyRef Name="StoreID" />
             <PropertyRef Name="Doc_Ty" />
             <PropertyRef Name="Doc_No" />
             <PropertyRef Name="Ln_No" />
           </Key>
-<<<<<<< HEAD
           <Property Name="Cmp_No" Type="smallint" Nullable="false" />
           <Property Name="Actvty_No" Type="smallint" Nullable="false" />
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
           <Property Name="StoreID" Type="smallint" Nullable="false" />
           <Property Name="Doc_Ty" Type="smallint" Nullable="false" />
           <Property Name="Doc_No" Type="bigint" Nullable="false" />
@@ -983,27 +922,17 @@ warning 6002: The table/view 'ICDBTrdA.dbo.FixdDepDtl' does not have a primary k
           <Property Name="SpecialDiscount" Type="money" />
           <Property Name="Taxp_Extra" Type="smallmoney" />
           <Property Name="Taxv_Extra" Type="money" />
-<<<<<<< HEAD
         </EntityType>
         <EntityType Name="InvLodhdr">
           <Key>
             <PropertyRef Name="Cmp_No" />
             <PropertyRef Name="Actvty_No" />
-=======
-          <Property Name="cmp_no" Type="int" />
-        </EntityType>
-        <EntityType Name="InvLodhdr">
-          <Key>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             <PropertyRef Name="StoreID" />
             <PropertyRef Name="Doc_Ty" />
             <PropertyRef Name="Doc_No" />
           </Key>
-<<<<<<< HEAD
           <Property Name="Cmp_No" Type="smallint" Nullable="false" />
           <Property Name="Actvty_No" Type="smallint" Nullable="false" />
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
           <Property Name="StoreID" Type="smallint" Nullable="false" />
           <Property Name="Doc_Ty" Type="smallint" Nullable="false" />
           <Property Name="Doc_No" Type="bigint" Nullable="false" />
@@ -1088,10 +1017,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.FixdDepDtl' does not have a primary k
           <Property Name="Taxv_ExtraTot" Type="money" />
           <Property Name="Tax_Allow" Type="smallint" />
           <Property Name="Tax_Acc" Type="bigint" />
-<<<<<<< HEAD
-=======
-          <Property Name="cmp_no" Type="int" />
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         </EntityType>
         <EntityType Name="InvPoDtl">
           <Key>
@@ -3917,7 +3842,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
             </Dependent>
           </ReferentialConstraint>
         </Association>
-<<<<<<< HEAD
         <Function Name="InvLoddtl_Count_New_Ln_No" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="Doc_Ty" Type="smallint" Mode="In" />
           <Parameter Name="Doc_No" Type="bigint" Mode="In" />
@@ -3987,21 +3911,16 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <Parameter Name="Pym_Dt" Type="nvarchar" Mode="In" />
           <Parameter Name="Notes" Type="nvarchar" Mode="In" />
         </Function>
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         <Function Name="login_check" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="user_name" Type="nvarchar" Mode="In" />
           <Parameter Name="password" Type="nvarchar" Mode="In" />
         </Function>
-<<<<<<< HEAD
         <Function Name="MtsItmunit_Gett_By_Itm_No" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="Itm_No" Type="bigint" Mode="In" />
         </Function>
         <Function Name="MtsSuplir_get_Credit_Days" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="Sup_No" Type="bigint" Mode="In" />
         </Function>
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         <Function Name="register" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="user_name" Type="nvarchar" Mode="In" />
           <Parameter Name="password" Type="nvarchar" Mode="In" />
@@ -4031,10 +3950,7 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <EntitySet Name="ActivityTypes" EntityType="Self.ActivityTypes" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="ActivSetup" EntityType="Self.ActivSetup" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="AgeBalance" EntityType="Self.AgeBalance" Schema="dbo" store:Type="Tables" />
-<<<<<<< HEAD
           <EntitySet Name="AstCity" EntityType="Self.AstCity" Schema="dbo" store:Type="Tables" />
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
           <EntitySet Name="AstCompany" EntityType="Self.AstCompany" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="AstDprtmnt" EntityType="Self.AstDprtmnt" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Astsupctg" EntityType="Self.Astsupctg" Schema="dbo" store:Type="Tables" />
@@ -4066,13 +3982,7 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <EntitySet Name="HrAstReljan" EntityType="Self.HrAstReljan" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="HrAstReqtyp" EntityType="Self.HrAstReqtyp" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="HrAststate" EntityType="Self.HrAststate" Schema="dbo" store:Type="Tables" />
-<<<<<<< HEAD
           <EntitySet Name="InvAstCardTyp" EntityType="Self.InvAstCardTyp" Schema="dbo" store:Type="Tables" />
-=======
-          <EntitySet Name="InvAstArea" EntityType="Self.InvAstArea" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="InvAstCardTyp" EntityType="Self.InvAstCardTyp" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="InvAstCity" EntityType="Self.InvAstCity" Schema="dbo" store:Type="Tables" />
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
           <EntitySet Name="InvAstCntry" EntityType="Self.InvAstCntry" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="InvAstcPayType" EntityType="Self.InvAstcPayType" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="InvAstCurncy" EntityType="Self.InvAstCurncy" Schema="dbo" store:Type="Tables" />
@@ -4081,10 +3991,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <EntitySet Name="InvAstNutrbusn" EntityType="Self.InvAstNutrbusn" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="InvAstPymwys" EntityType="Self.InvAstPymwys" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="InvAstRefTyp" EntityType="Self.InvAstRefTyp" Schema="dbo" store:Type="Tables" />
-<<<<<<< HEAD
-=======
-          <EntitySet Name="InvAstRefTypMain" EntityType="Self.InvAstRefTypMain" Schema="dbo" store:Type="Tables" />
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
           <EntitySet Name="InvAstSalesman" EntityType="Self.InvAstSalesman" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="InvAstwrkPeriod" EntityType="Self.InvAstwrkPeriod" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="InvLimit_Qty" EntityType="Self.InvLimit_Qty" Schema="dbo" store:Type="Tables" />
@@ -4952,7 +4858,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <Property Name="Age_Nm" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="cmp_no" Type="Int32" />
         </EntityType>
-<<<<<<< HEAD
         <EntityType Name="AstCity">
           <Key>
             <PropertyRef Name="Cmp_No" />
@@ -4971,8 +4876,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <Property Name="Brn_No" Type="Int32" />
           <Property Name="Cntry_No" Type="Int16" />
         </EntityType>
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         <EntityType Name="AstCompany">
           <Key>
             <PropertyRef Name="Cmp_No" />
@@ -5559,22 +5462,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <Property Name="State_NmEn" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
           <Property Name="cmp_no" Type="Int32" />
         </EntityType>
-<<<<<<< HEAD
-=======
-        <EntityType Name="InvAstArea">
-          <Key>
-            <PropertyRef Name="Area_No" />
-          </Key>
-          <Property Name="ID_NO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Area_No" Type="Int16" Nullable="false" />
-          <Property Name="Area_NmAR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Area_NmEN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Cntry_No" Type="Int16" />
-          <Property Name="City_No" Type="Int16" />
-          <Property Name="Slm_No" Type="Int16" />
-          <Property Name="cmp_no" Type="Int32" />
-        </EntityType>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         <EntityType Name="InvAstCardTyp">
           <Key>
             <PropertyRef Name="Card_ID" />
@@ -5583,21 +5470,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <Property Name="Card_Typ" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="cmp_no" Type="Int32" />
         </EntityType>
-<<<<<<< HEAD
-=======
-        <EntityType Name="InvAstCity">
-          <Key>
-            <PropertyRef Name="City_No" />
-          </Key>
-          <Property Name="ID_NO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="City_No" Type="Int16" Nullable="false" />
-          <Property Name="Brn_No" Type="Int32" />
-          <Property Name="City_NmAR" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
-          <Property Name="City_NmEN" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
-          <Property Name="Cntry_No" Type="Int16" />
-          <Property Name="cmp_no" Type="Int32" />
-        </EntityType>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         <EntityType Name="InvAstCntry">
           <Key>
             <PropertyRef Name="Cntry_No" />
@@ -5677,7 +5549,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
         </EntityType>
         <EntityType Name="InvAstRefTyp">
           <Key>
-<<<<<<< HEAD
             <PropertyRef Name="Cmp_No" />
             <PropertyRef Name="Actvty_No" />
             <PropertyRef Name="RefTyp_No" />
@@ -5691,26 +5562,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <Property Name="Level_Status" Type="Int16" />
           <Property Name="RefTyp_NmAr" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
           <Property Name="RefTyp_NmEn" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
-=======
-            <PropertyRef Name="RefTyp_No" />
-          </Key>
-          <Property Name="ID_NO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Main_Reftyp" Type="Int16" Nullable="false" />
-          <Property Name="RefTyp_No" Type="Int16" Nullable="false" />
-          <Property Name="RefTyp_Nm" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
-          <Property Name="RefTyp_NmAr" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
-          <Property Name="cmp_no" Type="Int32" />
-        </EntityType>
-        <EntityType Name="InvAstRefTypMain">
-          <Key>
-            <PropertyRef Name="Main_Reftyp" />
-          </Key>
-          <Property Name="ID_NO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Main_Reftyp" Type="Int16" Nullable="false" />
-          <Property Name="RefTyp_Nm" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
-          <Property Name="RefTyp_NmAr" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
-          <Property Name="cmp_no" Type="Int32" />
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         </EntityType>
         <EntityType Name="InvAstSalesman">
           <Key>
@@ -5770,21 +5621,15 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
         </EntityType>
         <EntityType Name="InvLoddtl">
           <Key>
-<<<<<<< HEAD
             <PropertyRef Name="Cmp_No" />
             <PropertyRef Name="Actvty_No" />
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             <PropertyRef Name="StoreID" />
             <PropertyRef Name="Doc_Ty" />
             <PropertyRef Name="Doc_No" />
             <PropertyRef Name="Ln_No" />
           </Key>
-<<<<<<< HEAD
           <Property Name="Cmp_No" Type="Int16" Nullable="false" />
           <Property Name="Actvty_No" Type="Int16" Nullable="false" />
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
           <Property Name="StoreID" Type="Int16" Nullable="false" />
           <Property Name="Doc_Ty" Type="Int16" Nullable="false" />
           <Property Name="Doc_No" Type="Int64" Nullable="false" />
@@ -5874,27 +5719,17 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <Property Name="SpecialDiscount" Type="Decimal" Precision="19" Scale="4" />
           <Property Name="Taxp_Extra" Type="Decimal" Precision="10" Scale="4" />
           <Property Name="Taxv_Extra" Type="Decimal" Precision="19" Scale="4" />
-<<<<<<< HEAD
         </EntityType>
         <EntityType Name="InvLodhdr">
           <Key>
             <PropertyRef Name="Cmp_No" />
             <PropertyRef Name="Actvty_No" />
-=======
-          <Property Name="cmp_no" Type="Int32" />
-        </EntityType>
-        <EntityType Name="InvLodhdr">
-          <Key>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             <PropertyRef Name="StoreID" />
             <PropertyRef Name="Doc_Ty" />
             <PropertyRef Name="Doc_No" />
           </Key>
-<<<<<<< HEAD
           <Property Name="Cmp_No" Type="Int16" Nullable="false" />
           <Property Name="Actvty_No" Type="Int16" Nullable="false" />
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
           <Property Name="StoreID" Type="Int16" Nullable="false" />
           <Property Name="Doc_Ty" Type="Int16" Nullable="false" />
           <Property Name="Doc_No" Type="Int64" Nullable="false" />
@@ -5979,10 +5814,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <Property Name="Taxv_ExtraTot" Type="Decimal" Precision="19" Scale="4" />
           <Property Name="Tax_Allow" Type="Int16" />
           <Property Name="Tax_Acc" Type="Int64" />
-<<<<<<< HEAD
-=======
-          <Property Name="cmp_no" Type="Int32" />
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         </EntityType>
         <EntityType Name="InvPoDtl">
           <Key>
@@ -8751,10 +8582,7 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <EntitySet Name="ActivityTypes" EntityType="Self.ActivityTypes" />
           <EntitySet Name="ActivSetup" EntityType="Self.ActivSetup" />
           <EntitySet Name="AgeBalance" EntityType="Self.AgeBalance" />
-<<<<<<< HEAD
           <EntitySet Name="AstCity" EntityType="Self.AstCity" />
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
           <EntitySet Name="AstCompany" EntityType="Self.AstCompany" />
           <EntitySet Name="AstDprtmnt" EntityType="Self.AstDprtmnt" />
           <EntitySet Name="Astsupctg" EntityType="Self.Astsupctg" />
@@ -8786,13 +8614,7 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <EntitySet Name="HrAstReljan" EntityType="Self.HrAstReljan" />
           <EntitySet Name="HrAstReqtyp" EntityType="Self.HrAstReqtyp" />
           <EntitySet Name="HrAststate" EntityType="Self.HrAststate" />
-<<<<<<< HEAD
           <EntitySet Name="InvAstCardTyp" EntityType="Self.InvAstCardTyp" />
-=======
-          <EntitySet Name="InvAstArea" EntityType="Self.InvAstArea" />
-          <EntitySet Name="InvAstCardTyp" EntityType="Self.InvAstCardTyp" />
-          <EntitySet Name="InvAstCity" EntityType="Self.InvAstCity" />
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
           <EntitySet Name="InvAstCntry" EntityType="Self.InvAstCntry" />
           <EntitySet Name="InvAstcPayType" EntityType="Self.InvAstcPayType" />
           <EntitySet Name="InvAstCurncy" EntityType="Self.InvAstCurncy" />
@@ -8801,10 +8623,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <EntitySet Name="InvAstNutrbusn" EntityType="Self.InvAstNutrbusn" />
           <EntitySet Name="InvAstPymwys" EntityType="Self.InvAstPymwys" />
           <EntitySet Name="InvAstRefTyp" EntityType="Self.InvAstRefTyp" />
-<<<<<<< HEAD
-=======
-          <EntitySet Name="InvAstRefTypMain" EntityType="Self.InvAstRefTypMain" />
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
           <EntitySet Name="InvAstSalesman" EntityType="Self.InvAstSalesman" />
           <EntitySet Name="InvAstwrkPeriod" EntityType="Self.InvAstwrkPeriod" />
           <EntitySet Name="InvLimit_Qty" EntityType="Self.InvLimit_Qty" />
@@ -8889,7 +8707,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
             <End Role="Roles" EntitySet="Roles" />
             <End Role="Users" EntitySet="Users" />
           </AssociationSet>
-<<<<<<< HEAD
           <FunctionImport Name="InvLoddtl_Count_New_Ln_No" ReturnType="Collection(Int32)">
             <Parameter Name="Doc_Ty" Mode="In" Type="Int16" />
             <Parameter Name="Doc_No" Mode="In" Type="Int64" />
@@ -8959,21 +8776,16 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
             <Parameter Name="Pym_Dt" Mode="In" Type="String" />
             <Parameter Name="Notes" Mode="In" Type="String" />
           </FunctionImport>
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
           <FunctionImport Name="login_check" ReturnType="Collection(ICDBTrdAModel.login_check_Result)">
             <Parameter Name="user_name" Mode="In" Type="String" />
             <Parameter Name="password" Mode="In" Type="String" />
           </FunctionImport>
-<<<<<<< HEAD
           <FunctionImport Name="MtsItmunit_Gett_By_Itm_No" ReturnType="Collection(ICDBTrdAModel.MtsItmunit_Gett_By_Itm_No_Result)">
             <Parameter Name="Itm_No" Mode="In" Type="Int64" />
           </FunctionImport>
           <FunctionImport Name="MtsSuplir_get_Credit_Days" ReturnType="Collection(Int32)">
             <Parameter Name="Sup_No" Mode="In" Type="Int64" />
           </FunctionImport>
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
           <FunctionImport Name="register">
             <Parameter Name="user_name" Mode="In" Type="String" />
             <Parameter Name="password" Mode="In" Type="String" />
@@ -9000,7 +8812,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
             <Parameter Name="cmp_no" Mode="In" Type="Int32" />
           </FunctionImport>
         </EntityContainer>
-<<<<<<< HEAD
         <ComplexType Name="InvLoddtl_Get_By_Doc_No_Result">
           <Property Type="Int64" Name="Doc_No" Nullable="false" />
           <Property Type="Int16" Name="Cmp_No" Nullable="false" />
@@ -9114,22 +8925,17 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <Property Type="Decimal" Name="Taxp_Extra" Nullable="true" Precision="10" />
           <Property Type="Decimal" Name="Taxv_Extra" Nullable="true" Precision="19" />
         </ComplexType>
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         <ComplexType Name="login_check_Result">
           <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" />
           <Property Type="Int32" Name="UserID" Nullable="false" />
           <Property Type="String" Name="GroupName" Nullable="false" MaxLength="50" />
         </ComplexType>
-<<<<<<< HEAD
         <ComplexType Name="MtsItmunit_Gett_By_Itm_No_Result">
           <Property Type="Int64" Name="Itm_No" Nullable="false" />
           <Property Type="String" Name="Itm_NmAr" Nullable="true" MaxLength="250" />
           <Property Type="Int16" Name="Unit_No" Nullable="false" />
           <Property Type="String" Name="Unit_NmAr" Nullable="true" MaxLength="10" />
         </ComplexType>
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         <ComplexType Name="select_grid_Result">
           <Property Type="String" Name="month" Nullable="true" MaxLength="6" />
           <Property Type="Decimal" Name="debit" Nullable="true" Precision="19" />
@@ -9194,7 +9000,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-<<<<<<< HEAD
           <EntitySetMapping Name="AstCity">
             <EntityTypeMapping TypeName="ICDBTrdAModel.AstCity">
               <MappingFragment StoreEntitySet="AstCity">
@@ -9212,8 +9017,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
           <EntitySetMapping Name="AstCompany">
             <EntityTypeMapping TypeName="ICDBTrdAModel.AstCompany">
               <MappingFragment StoreEntitySet="AstCompany">
@@ -9823,23 +9626,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-<<<<<<< HEAD
-=======
-          <EntitySetMapping Name="InvAstArea">
-            <EntityTypeMapping TypeName="ICDBTrdAModel.InvAstArea">
-              <MappingFragment StoreEntitySet="InvAstArea">
-                <ScalarProperty Name="ID_NO" ColumnName="ID_NO" />
-                <ScalarProperty Name="Area_No" ColumnName="Area_No" />
-                <ScalarProperty Name="Area_NmAR" ColumnName="Area_NmAR" />
-                <ScalarProperty Name="Area_NmEN" ColumnName="Area_NmEN" />
-                <ScalarProperty Name="Cntry_No" ColumnName="Cntry_No" />
-                <ScalarProperty Name="City_No" ColumnName="City_No" />
-                <ScalarProperty Name="Slm_No" ColumnName="Slm_No" />
-                <ScalarProperty Name="cmp_no" ColumnName="cmp_no" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
           <EntitySetMapping Name="InvAstCardTyp">
             <EntityTypeMapping TypeName="ICDBTrdAModel.InvAstCardTyp">
               <MappingFragment StoreEntitySet="InvAstCardTyp">
@@ -9849,22 +9635,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-<<<<<<< HEAD
-=======
-          <EntitySetMapping Name="InvAstCity">
-            <EntityTypeMapping TypeName="ICDBTrdAModel.InvAstCity">
-              <MappingFragment StoreEntitySet="InvAstCity">
-                <ScalarProperty Name="ID_NO" ColumnName="ID_NO" />
-                <ScalarProperty Name="City_No" ColumnName="City_No" />
-                <ScalarProperty Name="Brn_No" ColumnName="Brn_No" />
-                <ScalarProperty Name="City_NmAR" ColumnName="City_NmAR" />
-                <ScalarProperty Name="City_NmEN" ColumnName="City_NmEN" />
-                <ScalarProperty Name="Cntry_No" ColumnName="Cntry_No" />
-                <ScalarProperty Name="cmp_no" ColumnName="cmp_no" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
           <EntitySetMapping Name="InvAstCntry">
             <EntityTypeMapping TypeName="ICDBTrdAModel.InvAstCntry">
               <MappingFragment StoreEntitySet="InvAstCntry">
@@ -9953,7 +9723,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
             <EntityTypeMapping TypeName="ICDBTrdAModel.InvAstRefTyp">
               <MappingFragment StoreEntitySet="InvAstRefTyp">
                 <ScalarProperty Name="ID_NO" ColumnName="ID_NO" />
-<<<<<<< HEAD
                 <ScalarProperty Name="Cmp_No" ColumnName="Cmp_No" />
                 <ScalarProperty Name="Actvty_No" ColumnName="Actvty_No" />
                 <ScalarProperty Name="RefTyp_No" ColumnName="RefTyp_No" />
@@ -9962,24 +9731,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
                 <ScalarProperty Name="Level_Status" ColumnName="Level_Status" />
                 <ScalarProperty Name="RefTyp_NmAr" ColumnName="RefTyp_NmAr" />
                 <ScalarProperty Name="RefTyp_NmEn" ColumnName="RefTyp_NmEn" />
-=======
-                <ScalarProperty Name="Main_Reftyp" ColumnName="Main_Reftyp" />
-                <ScalarProperty Name="RefTyp_No" ColumnName="RefTyp_No" />
-                <ScalarProperty Name="RefTyp_Nm" ColumnName="RefTyp_Nm" />
-                <ScalarProperty Name="RefTyp_NmAr" ColumnName="RefTyp_NmAr" />
-                <ScalarProperty Name="cmp_no" ColumnName="cmp_no" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="InvAstRefTypMain">
-            <EntityTypeMapping TypeName="ICDBTrdAModel.InvAstRefTypMain">
-              <MappingFragment StoreEntitySet="InvAstRefTypMain">
-                <ScalarProperty Name="ID_NO" ColumnName="ID_NO" />
-                <ScalarProperty Name="Main_Reftyp" ColumnName="Main_Reftyp" />
-                <ScalarProperty Name="RefTyp_Nm" ColumnName="RefTyp_Nm" />
-                <ScalarProperty Name="RefTyp_NmAr" ColumnName="RefTyp_NmAr" />
-                <ScalarProperty Name="cmp_no" ColumnName="cmp_no" />
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -10045,11 +9796,8 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <EntitySetMapping Name="InvLoddtl">
             <EntityTypeMapping TypeName="ICDBTrdAModel.InvLoddtl">
               <MappingFragment StoreEntitySet="InvLoddtl">
-<<<<<<< HEAD
                 <ScalarProperty Name="Cmp_No" ColumnName="Cmp_No" />
                 <ScalarProperty Name="Actvty_No" ColumnName="Actvty_No" />
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 <ScalarProperty Name="StoreID" ColumnName="StoreID" />
                 <ScalarProperty Name="Doc_Ty" ColumnName="Doc_Ty" />
                 <ScalarProperty Name="Doc_No" ColumnName="Doc_No" />
@@ -10139,21 +9887,14 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
                 <ScalarProperty Name="SpecialDiscount" ColumnName="SpecialDiscount" />
                 <ScalarProperty Name="Taxp_Extra" ColumnName="Taxp_Extra" />
                 <ScalarProperty Name="Taxv_Extra" ColumnName="Taxv_Extra" />
-<<<<<<< HEAD
-=======
-                <ScalarProperty Name="cmp_no" ColumnName="cmp_no" />
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="InvLodhdr">
             <EntityTypeMapping TypeName="ICDBTrdAModel.InvLodhdr">
               <MappingFragment StoreEntitySet="InvLodhdr">
-<<<<<<< HEAD
                 <ScalarProperty Name="Cmp_No" ColumnName="Cmp_No" />
                 <ScalarProperty Name="Actvty_No" ColumnName="Actvty_No" />
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 <ScalarProperty Name="StoreID" ColumnName="StoreID" />
                 <ScalarProperty Name="Doc_Ty" ColumnName="Doc_Ty" />
                 <ScalarProperty Name="Doc_No" ColumnName="Doc_No" />
@@ -10238,10 +9979,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
                 <ScalarProperty Name="Taxv_ExtraTot" ColumnName="Taxv_ExtraTot" />
                 <ScalarProperty Name="Tax_Allow" ColumnName="Tax_Allow" />
                 <ScalarProperty Name="Tax_Acc" ColumnName="Tax_Acc" />
-<<<<<<< HEAD
-=======
-                <ScalarProperty Name="cmp_no" ColumnName="cmp_no" />
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -12901,7 +12638,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-<<<<<<< HEAD
           <FunctionImportMapping FunctionImportName="InvLoddtl_Count_New_Ln_No" FunctionName="ICDBTrdAModel.Store.InvLoddtl_Count_New_Ln_No" />
           <FunctionImportMapping FunctionImportName="InvLoddtl_Get_By_Doc_No" FunctionName="ICDBTrdAModel.Store.InvLoddtl_Get_By_Doc_No">
             <ResultMapping>
@@ -13031,8 +12767,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <FunctionImportMapping FunctionImportName="InvLodhdr_Insert" FunctionName="ICDBTrdAModel.Store.InvLodhdr_Insert" />
           <FunctionImportMapping FunctionImportName="InvLodhdr_Max_ID" FunctionName="ICDBTrdAModel.Store.InvLodhdr_Max_ID" />
           <FunctionImportMapping FunctionImportName="InvLodhdr_Update" FunctionName="ICDBTrdAModel.Store.InvLodhdr_Update" />
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
           <FunctionImportMapping FunctionImportName="login_check" FunctionName="ICDBTrdAModel.Store.login_check">
             <ResultMapping>
               <ComplexTypeMapping TypeName="ICDBTrdAModel.login_check_Result">
@@ -13042,7 +12776,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
-<<<<<<< HEAD
           <FunctionImportMapping FunctionImportName="MtsItmunit_Gett_By_Itm_No" FunctionName="ICDBTrdAModel.Store.MtsItmunit_Gett_By_Itm_No">
             <ResultMapping>
               <ComplexTypeMapping TypeName="ICDBTrdAModel.MtsItmunit_Gett_By_Itm_No_Result">
@@ -13054,8 +12787,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
             </ResultMapping>
           </FunctionImportMapping>
           <FunctionImportMapping FunctionImportName="MtsSuplir_get_Credit_Days" FunctionName="ICDBTrdAModel.Store.MtsSuplir_get_Credit_Days" />
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
           <FunctionImportMapping FunctionImportName="register" FunctionName="ICDBTrdAModel.Store.register" />
           <FunctionImportMapping FunctionImportName="select_grid" FunctionName="ICDBTrdAModel.Store.select_grid">
             <ResultMapping>

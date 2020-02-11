@@ -31,7 +31,6 @@
     <Property Name="Age_Nm" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="cmp_no" Type="Int32" />
   </EntityType>
-<<<<<<< HEAD
   <EntityType Name="AstCity">
     <Key>
       <PropertyRef Name="Cmp_No" />
@@ -50,8 +49,6 @@
     <Property Name="Brn_No" Type="Int32" />
     <Property Name="Cntry_No" Type="Int16" />
   </EntityType>
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
   <EntityType Name="AstCompany">
     <Key>
       <PropertyRef Name="Cmp_No" />
@@ -638,22 +635,6 @@
     <Property Name="State_NmEn" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
     <Property Name="cmp_no" Type="Int32" />
   </EntityType>
-<<<<<<< HEAD
-=======
-  <EntityType Name="InvAstArea">
-    <Key>
-      <PropertyRef Name="Area_No" />
-    </Key>
-    <Property Name="ID_NO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Area_No" Type="Int16" Nullable="false" />
-    <Property Name="Area_NmAR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="Area_NmEN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="Cntry_No" Type="Int16" />
-    <Property Name="City_No" Type="Int16" />
-    <Property Name="Slm_No" Type="Int16" />
-    <Property Name="cmp_no" Type="Int32" />
-  </EntityType>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
   <EntityType Name="InvAstCardTyp">
     <Key>
       <PropertyRef Name="Card_ID" />
@@ -662,21 +643,6 @@
     <Property Name="Card_Typ" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="cmp_no" Type="Int32" />
   </EntityType>
-<<<<<<< HEAD
-=======
-  <EntityType Name="InvAstCity">
-    <Key>
-      <PropertyRef Name="City_No" />
-    </Key>
-    <Property Name="ID_NO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="City_No" Type="Int16" Nullable="false" />
-    <Property Name="Brn_No" Type="Int32" />
-    <Property Name="City_NmAR" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
-    <Property Name="City_NmEN" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
-    <Property Name="Cntry_No" Type="Int16" />
-    <Property Name="cmp_no" Type="Int32" />
-  </EntityType>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
   <EntityType Name="InvAstCntry">
     <Key>
       <PropertyRef Name="Cntry_No" />
@@ -756,7 +722,6 @@
   </EntityType>
   <EntityType Name="InvAstRefTyp">
     <Key>
-<<<<<<< HEAD
       <PropertyRef Name="Cmp_No" />
       <PropertyRef Name="Actvty_No" />
       <PropertyRef Name="RefTyp_No" />
@@ -770,26 +735,6 @@
     <Property Name="Level_Status" Type="Int16" />
     <Property Name="RefTyp_NmAr" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
     <Property Name="RefTyp_NmEn" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
-=======
-      <PropertyRef Name="RefTyp_No" />
-    </Key>
-    <Property Name="ID_NO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Main_Reftyp" Type="Int16" Nullable="false" />
-    <Property Name="RefTyp_No" Type="Int16" Nullable="false" />
-    <Property Name="RefTyp_Nm" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
-    <Property Name="RefTyp_NmAr" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
-    <Property Name="cmp_no" Type="Int32" />
-  </EntityType>
-  <EntityType Name="InvAstRefTypMain">
-    <Key>
-      <PropertyRef Name="Main_Reftyp" />
-    </Key>
-    <Property Name="ID_NO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Main_Reftyp" Type="Int16" Nullable="false" />
-    <Property Name="RefTyp_Nm" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
-    <Property Name="RefTyp_NmAr" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
-    <Property Name="cmp_no" Type="Int32" />
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
   </EntityType>
   <EntityType Name="InvAstSalesman">
     <Key>
@@ -849,21 +794,15 @@
   </EntityType>
   <EntityType Name="InvLoddtl">
     <Key>
-<<<<<<< HEAD
       <PropertyRef Name="Cmp_No" />
       <PropertyRef Name="Actvty_No" />
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
       <PropertyRef Name="StoreID" />
       <PropertyRef Name="Doc_Ty" />
       <PropertyRef Name="Doc_No" />
       <PropertyRef Name="Ln_No" />
     </Key>
-<<<<<<< HEAD
     <Property Name="Cmp_No" Type="Int16" Nullable="false" />
     <Property Name="Actvty_No" Type="Int16" Nullable="false" />
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     <Property Name="StoreID" Type="Int16" Nullable="false" />
     <Property Name="Doc_Ty" Type="Int16" Nullable="false" />
     <Property Name="Doc_No" Type="Int64" Nullable="false" />
@@ -953,27 +892,17 @@
     <Property Name="SpecialDiscount" Type="Decimal" Precision="19" Scale="4" />
     <Property Name="Taxp_Extra" Type="Decimal" Precision="10" Scale="4" />
     <Property Name="Taxv_Extra" Type="Decimal" Precision="19" Scale="4" />
-<<<<<<< HEAD
   </EntityType>
   <EntityType Name="InvLodhdr">
     <Key>
       <PropertyRef Name="Cmp_No" />
       <PropertyRef Name="Actvty_No" />
-=======
-    <Property Name="cmp_no" Type="Int32" />
-  </EntityType>
-  <EntityType Name="InvLodhdr">
-    <Key>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
       <PropertyRef Name="StoreID" />
       <PropertyRef Name="Doc_Ty" />
       <PropertyRef Name="Doc_No" />
     </Key>
-<<<<<<< HEAD
     <Property Name="Cmp_No" Type="Int16" Nullable="false" />
     <Property Name="Actvty_No" Type="Int16" Nullable="false" />
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     <Property Name="StoreID" Type="Int16" Nullable="false" />
     <Property Name="Doc_Ty" Type="Int16" Nullable="false" />
     <Property Name="Doc_No" Type="Int64" Nullable="false" />
@@ -1058,10 +987,6 @@
     <Property Name="Taxv_ExtraTot" Type="Decimal" Precision="19" Scale="4" />
     <Property Name="Tax_Allow" Type="Int16" />
     <Property Name="Tax_Acc" Type="Int64" />
-<<<<<<< HEAD
-=======
-    <Property Name="cmp_no" Type="Int32" />
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
   </EntityType>
   <EntityType Name="InvPoDtl">
     <Key>
@@ -3830,10 +3755,7 @@
     <EntitySet Name="ActivityTypes" EntityType="Self.ActivityTypes" />
     <EntitySet Name="ActivSetup" EntityType="Self.ActivSetup" />
     <EntitySet Name="AgeBalance" EntityType="Self.AgeBalance" />
-<<<<<<< HEAD
     <EntitySet Name="AstCity" EntityType="Self.AstCity" />
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     <EntitySet Name="AstCompany" EntityType="Self.AstCompany" />
     <EntitySet Name="AstDprtmnt" EntityType="Self.AstDprtmnt" />
     <EntitySet Name="Astsupctg" EntityType="Self.Astsupctg" />
@@ -3865,13 +3787,7 @@
     <EntitySet Name="HrAstReljan" EntityType="Self.HrAstReljan" />
     <EntitySet Name="HrAstReqtyp" EntityType="Self.HrAstReqtyp" />
     <EntitySet Name="HrAststate" EntityType="Self.HrAststate" />
-<<<<<<< HEAD
     <EntitySet Name="InvAstCardTyp" EntityType="Self.InvAstCardTyp" />
-=======
-    <EntitySet Name="InvAstArea" EntityType="Self.InvAstArea" />
-    <EntitySet Name="InvAstCardTyp" EntityType="Self.InvAstCardTyp" />
-    <EntitySet Name="InvAstCity" EntityType="Self.InvAstCity" />
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     <EntitySet Name="InvAstCntry" EntityType="Self.InvAstCntry" />
     <EntitySet Name="InvAstcPayType" EntityType="Self.InvAstcPayType" />
     <EntitySet Name="InvAstCurncy" EntityType="Self.InvAstCurncy" />
@@ -3880,10 +3796,6 @@
     <EntitySet Name="InvAstNutrbusn" EntityType="Self.InvAstNutrbusn" />
     <EntitySet Name="InvAstPymwys" EntityType="Self.InvAstPymwys" />
     <EntitySet Name="InvAstRefTyp" EntityType="Self.InvAstRefTyp" />
-<<<<<<< HEAD
-=======
-    <EntitySet Name="InvAstRefTypMain" EntityType="Self.InvAstRefTypMain" />
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     <EntitySet Name="InvAstSalesman" EntityType="Self.InvAstSalesman" />
     <EntitySet Name="InvAstwrkPeriod" EntityType="Self.InvAstwrkPeriod" />
     <EntitySet Name="InvLimit_Qty" EntityType="Self.InvLimit_Qty" />
@@ -3968,7 +3880,6 @@
       <End Role="Roles" EntitySet="Roles" />
       <End Role="Users" EntitySet="Users" />
     </AssociationSet>
-<<<<<<< HEAD
     <FunctionImport Name="InvLoddtl_Count_New_Ln_No" ReturnType="Collection(Int32)">
       <Parameter Name="Doc_Ty" Mode="In" Type="Int16" />
       <Parameter Name="Doc_No" Mode="In" Type="Int64" />
@@ -4038,21 +3949,16 @@
       <Parameter Name="Pym_Dt" Mode="In" Type="String" />
       <Parameter Name="Notes" Mode="In" Type="String" />
     </FunctionImport>
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     <FunctionImport Name="login_check" ReturnType="Collection(ICDBTrdAModel.login_check_Result)">
       <Parameter Name="user_name" Mode="In" Type="String" />
       <Parameter Name="password" Mode="In" Type="String" />
     </FunctionImport>
-<<<<<<< HEAD
     <FunctionImport Name="MtsItmunit_Gett_By_Itm_No" ReturnType="Collection(ICDBTrdAModel.MtsItmunit_Gett_By_Itm_No_Result)">
       <Parameter Name="Itm_No" Mode="In" Type="Int64" />
     </FunctionImport>
     <FunctionImport Name="MtsSuplir_get_Credit_Days" ReturnType="Collection(Int32)">
       <Parameter Name="Sup_No" Mode="In" Type="Int64" />
     </FunctionImport>
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     <FunctionImport Name="register">
       <Parameter Name="user_name" Mode="In" Type="String" />
       <Parameter Name="password" Mode="In" Type="String" />
@@ -4079,7 +3985,6 @@
       <Parameter Name="cmp_no" Mode="In" Type="Int32" />
     </FunctionImport>
   </EntityContainer>
-<<<<<<< HEAD
   <ComplexType Name="InvLoddtl_Get_By_Doc_No_Result">
     <Property Type="Int64" Name="Doc_No" Nullable="false" />
     <Property Type="Int16" Name="Cmp_No" Nullable="false" />
@@ -4193,22 +4098,17 @@
     <Property Type="Decimal" Name="Taxp_Extra" Nullable="true" Precision="10" />
     <Property Type="Decimal" Name="Taxv_Extra" Nullable="true" Precision="19" />
   </ComplexType>
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
   <ComplexType Name="login_check_Result">
     <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" />
     <Property Type="Int32" Name="UserID" Nullable="false" />
     <Property Type="String" Name="GroupName" Nullable="false" MaxLength="50" />
   </ComplexType>
-<<<<<<< HEAD
   <ComplexType Name="MtsItmunit_Gett_By_Itm_No_Result">
     <Property Type="Int64" Name="Itm_No" Nullable="false" />
     <Property Type="String" Name="Itm_NmAr" Nullable="true" MaxLength="250" />
     <Property Type="Int16" Name="Unit_No" Nullable="false" />
     <Property Type="String" Name="Unit_NmAr" Nullable="true" MaxLength="10" />
   </ComplexType>
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
   <ComplexType Name="select_grid_Result">
     <Property Type="String" Name="month" Nullable="true" MaxLength="6" />
     <Property Type="Decimal" Name="debit" Nullable="true" Precision="19" />

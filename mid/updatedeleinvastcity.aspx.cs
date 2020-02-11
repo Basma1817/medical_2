@@ -45,28 +45,18 @@ namespace mid
             //  fill data for fields
             
             var id = int.Parse(Request.QueryString["no"]);
-<<<<<<< HEAD
             //var cn = db.InvAstCityxxx.Find(id);
             //TextBox1.Text = cn.City_No.ToString();
             //TextBox2.Text = cn.City_NmAR.ToString();
             //TextBox3.Text = cn.City_NmEN.ToString();
             //DropDownList1.SelectedValue = cn.Cntry_No.Value.ToString();
             //DropDownList2.SelectedValue = cn.Brn_No.Value.ToString();
-=======
-            var cn = db.InvAstCity.Find(id);
-            TextBox1.Text = cn.City_No.ToString();
-            TextBox2.Text = cn.City_NmAR.ToString();
-            TextBox3.Text = cn.City_NmEN.ToString();
-            DropDownList1.SelectedValue = cn.Cntry_No.Value.ToString();
-            DropDownList2.SelectedValue = cn.Brn_No.Value.ToString();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             }
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
             var id = int.Parse(Request.QueryString["no"]);
-<<<<<<< HEAD
             //var cn = db.InvAstCityxxx.Find(id);
             ////cn.Dlv_Stor = int.Parse(TextBox1.Text);
             //cn.City_NmAR = TextBox2.Text;
@@ -74,32 +64,16 @@ namespace mid
             //cn.Cntry_No = short.Parse(DropDownList1.SelectedValue);
             //cn.Brn_No = short.Parse(DropDownList2.SelectedValue);
             //db.SaveChanges();
-=======
-            var cn = db.InvAstCity.Find(id);
-            //cn.Dlv_Stor = int.Parse(TextBox1.Text);
-            cn.City_NmAR = TextBox2.Text;
-            cn.City_NmEN = TextBox3.Text;
-            cn.Cntry_No = short.Parse(DropDownList1.SelectedValue);
-            cn.Brn_No = short.Parse(DropDownList2.SelectedValue);
-            db.SaveChanges();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             Response.Redirect("invastcity.aspx");
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
             var id = int.Parse(Request.QueryString["no"]);
-<<<<<<< HEAD
             //var cn = db.InvAstCityxxx.Find(id);
             //db.InvAstCityxxx.Remove(cn);
             //db.SaveChanges();
             //Response.Redirect("invastcity.aspx");
-=======
-            var cn = db.InvAstCity.Find(id);
-            db.InvAstCity.Remove(cn);
-            db.SaveChanges();
-            Response.Redirect("invastcity.aspx");
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         }
         protected void Button3_Click(object sender, EventArgs e)
         {

@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="glast_acn_type_show.aspx.cs" Inherits="mid.glast_acn_type_show" %>
-<<<<<<< HEAD
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
         
@@ -40,9 +39,6 @@
 
 
 <%--<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-=======
-<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
 
 
      <div class="content-wrapper">
@@ -167,8 +163,4 @@
 
 
 
-<<<<<<< HEAD
 </asp:Content>--%>
-=======
-</asp:Content>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602

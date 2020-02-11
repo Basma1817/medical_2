@@ -14,7 +14,6 @@ namespace mid
         {
             if (!Page.IsPostBack)
             {
-<<<<<<< HEAD
                 DropDownList1.DataTextField = "Cmp_Nm";
                 DropDownList1.DataValueField = "Cmp_No";
                 DropDownList1.DataSource = db.MainCmpnam.ToList();
@@ -34,13 +33,6 @@ namespace mid
                 DropDownList3.DataTextField = "Costcntr_Nmar";
                 DropDownList3.DataSource = db.MtsCostcntr.ToList();
                 DropDownList3.DataBind();
-=======
-                TextBox1.Enabled = false;
-                DropDownList2.DataValueField = "Costcntr_No";
-                DropDownList2.DataTextField = "Costcntr_Nmar";
-                DropDownList2.DataSource = db.MtsCostcntr.ToList();
-                DropDownList2.DataBind();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 var id = int.Parse(Request.QueryString["no"]);
                 var cn = db.MtsCostcntr.Where(o => o.Costcntr_No == id).SingleOrDefault();
                 ViewState.Add("ID", id);
@@ -171,7 +163,6 @@ namespace mid
             catch { }
         }
 
-<<<<<<< HEAD
         protected void DropDownList3_SelectedIndexChanged(object sender, EventArgs e)
         {
             short id = short.Parse(DropDownList1.SelectedValue);
@@ -199,8 +190,6 @@ namespace mid
         {
 
         }
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
 
     }
 }

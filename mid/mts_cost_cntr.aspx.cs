@@ -21,7 +21,6 @@ namespace mid
                     DropDownList1.DataSource = db.MainCmpnam.ToList();
                     DropDownList1.DataBind();
                     ViewState["id"] = 0;
-<<<<<<< HEAD
 
                     int no = int.Parse(DropDownList1.SelectedValue);
 
@@ -31,9 +30,6 @@ namespace mid
                     DropDownList2.DataBind();
                     ViewState["id"] = 0;
                     var query = from p in db.MtsCostcntr
-=======
-            var query = from p in db.MtsCostcntr
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                         select new
                         {
               اول_المده_مدين= p.Fbal_DB,
@@ -274,17 +270,12 @@ namespace mid
             catch { }
         }
 
-<<<<<<< HEAD
         protected void DropDownList3_SelectedIndexChanged(object sender, EventArgs e)
-=======
-        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         {
             short id = short.Parse(DropDownList1.SelectedValue);
 
 
 
-<<<<<<< HEAD
             DropDownList3.DataTextField = "Costcntr_Nmar";
             DropDownList3.DataValueField = "Costcntr_No";
             DropDownList3.DataSource = db.MtsCostcntr.Where(o => o.Cmp_No == id).ToList();
@@ -306,14 +297,5 @@ namespace mid
         {
 
         }
-=======
-            DropDownList2.DataTextField = "Costcntr_Nmar";
-            DropDownList2.DataValueField = "Costcntr_No";
-            DropDownList2.DataSource = db.MtsCostcntr.Where(o => o.Cmp_No == id).ToList();
-            DropDownList2.DataBind();
-
-            load_tree();
-        }
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     }
 }

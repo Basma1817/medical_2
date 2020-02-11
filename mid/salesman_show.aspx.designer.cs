@@ -13,101 +13,58 @@ namespace mid {
     public partial class salesman_show {
         
         /// <summary>
-<<<<<<< HEAD
         /// Button3 control.
-=======
-        /// Label1 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Button Button3;
         
         /// <summary>
         /// Label6 control.
-=======
-        protected global::System.Web.UI.WebControls.Label Label1;
-        
-        /// <summary>
-        /// TextBox1 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label Label6;
         
         /// <summary>
         /// TextBox1 control.
-=======
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
-        
-        /// <summary>
-        /// Label2 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
         
         /// <summary>
         /// Label10 control.
-=======
-        protected global::System.Web.UI.WebControls.Label Label2;
-        
-        /// <summary>
-        /// TextBox2 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label Label10;
         
         /// <summary>
         /// TextBox2 control.
-=======
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
-        
-        /// <summary>
-        /// Label7 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.TextBox TextBox2;
         
         /// <summary>
         /// Label11 control.
-=======
-        protected global::System.Web.UI.WebControls.Label Label7;
-        
-        /// <summary>
-        /// Label8 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label Label11;
-=======
-        protected global::System.Web.UI.WebControls.Label Label8;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         
         /// <summary>
         /// TextBox3 control.
@@ -119,30 +76,13 @@ namespace mid {
         protected global::System.Web.UI.WebControls.TextBox TextBox3;
         
         /// <summary>
-<<<<<<< HEAD
         /// Label1 control.
-=======
-        /// Label9 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label Label1;
-=======
-        protected global::System.Web.UI.WebControls.Label Label9;
-        
-        /// <summary>
-        /// Label3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         
         /// <summary>
         /// TextBox4 control.
@@ -154,77 +94,39 @@ namespace mid {
         protected global::System.Web.UI.WebControls.TextBox TextBox4;
         
         /// <summary>
-<<<<<<< HEAD
         /// Label7 control.
-=======
-        /// Label4 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label Label7;
         
         /// <summary>
         /// TextBox5 control.
-=======
-        protected global::System.Web.UI.WebControls.Label Label4;
-        
-        /// <summary>
-        /// DropDownList1 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.TextBox TextBox5;
         
         /// <summary>
         /// Label2 control.
-=======
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
-        
-        /// <summary>
-        /// Label5 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
         /// DropDownList1 control.
-=======
-        protected global::System.Web.UI.WebControls.Label Label5;
-        
-        /// <summary>
-        /// TextBox5 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
-=======
-        protected global::System.Web.UI.WebControls.TextBox TextBox5;
-        
-        /// <summary>
-        /// Button3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     }
 }

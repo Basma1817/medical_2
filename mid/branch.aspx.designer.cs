@@ -13,17 +13,12 @@ namespace mid {
     public partial class branch {
         
         /// <summary>
-<<<<<<< HEAD
         /// Label17 control.
-=======
-        /// Label2 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label Label17;
         
         /// <summary>
@@ -79,9 +74,6 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label5;
-=======
-        protected global::System.Web.UI.WebControls.Label Label2;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         
         /// <summary>
         /// DropDownList1 control.

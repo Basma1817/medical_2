@@ -16,7 +16,6 @@ namespace mid
             DropDownList1.DataTextField = "Cmp_Nm";
             DropDownList1.DataSource = db.MainCmpnam.ToList();
             DropDownList1.DataBind();
-<<<<<<< HEAD
             int no = int.Parse(DropDownList1.SelectedValue);
 
             DropDownList2.DataTextField = "Name_Arb";
@@ -24,9 +23,6 @@ namespace mid
             DropDownList2.DataSource = db.ActivityTypes.Where(o => o.cmp_no == no).ToList();
             DropDownList2.DataBind();
             ViewState["id"] = 0;
-=======
-
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             var query = from p in db.AstDprtmnt
                         //where p.Dpm_No == id
                         select new
@@ -127,7 +123,6 @@ namespace mid
             db.SaveChanges();
             Response.Redirect("department.aspx");
         }
-<<<<<<< HEAD
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
         {
             int no = int.Parse(DropDownList1.SelectedValue);
@@ -142,8 +137,5 @@ namespace mid
         {
 
         }
-=======
-
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     }
 }

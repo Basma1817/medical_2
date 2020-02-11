@@ -13,7 +13,6 @@ namespace mid {
     public partial class py_earn_type_show {
         
         /// <summary>
-<<<<<<< HEAD
         /// Button3 control.
         /// </summary>
         /// <remarks>
@@ -23,8 +22,6 @@ namespace mid {
         protected global::System.Web.UI.WebControls.Button Button3;
         
         /// <summary>
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// Label1 control.
         /// </summary>
         /// <remarks>
@@ -61,30 +58,13 @@ namespace mid {
         protected global::System.Web.UI.WebControls.TextBox TextBox2;
         
         /// <summary>
-<<<<<<< HEAD
         /// Label3 control.
-=======
-        /// Label4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
-        
-        /// <summary>
-        /// Label5 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label Label3;
-=======
-        protected global::System.Web.UI.WebControls.Label Label5;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         
         /// <summary>
         /// TextBox3 control.
@@ -94,26 +74,5 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox3;
-<<<<<<< HEAD
-=======
-        
-        /// <summary>
-        /// Label6 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label6;
-        
-        /// <summary>
-        /// Button3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     }
 }

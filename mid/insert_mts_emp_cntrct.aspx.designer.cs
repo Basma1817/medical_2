@@ -13,7 +13,6 @@ namespace mid {
     public partial class insert_mts_emp_cntrct {
         
         /// <summary>
-<<<<<<< HEAD
         /// Label35 control.
         /// </summary>
         /// <remarks>
@@ -104,8 +103,6 @@ namespace mid {
         protected global::System.Web.UI.WebControls.Button Button2;
         
         /// <summary>
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// Label1 control.
         /// </summary>
         /// <remarks>
@@ -133,21 +130,13 @@ namespace mid {
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
         
         /// <summary>
-<<<<<<< HEAD
         /// Label39 control.
-=======
-        /// Label4 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label Label39;
-=======
-        protected global::System.Web.UI.WebControls.Label Label4;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         
         /// <summary>
         /// TextBox2 control.
@@ -159,7 +148,6 @@ namespace mid {
         protected global::System.Web.UI.WebControls.TextBox TextBox2;
         
         /// <summary>
-<<<<<<< HEAD
         /// Label4 control.
         /// </summary>
         /// <remarks>
@@ -169,8 +157,6 @@ namespace mid {
         protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// TextBox3 control.
         /// </summary>
         /// <remarks>
@@ -621,37 +607,22 @@ namespace mid {
         protected global::System.Web.UI.WebControls.Label Label29;
         
         /// <summary>
-<<<<<<< HEAD
         /// CheckBox1 control.
-=======
-        /// TextBox18 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.CheckBox CheckBox1;
         
         /// <summary>
         /// TextBox18 control.
-=======
-        protected global::System.Web.UI.WebControls.TextBox TextBox18;
-        
-        /// <summary>
-        /// CheckBox1 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.TextBox TextBox18;
-=======
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox1;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         
         /// <summary>
         /// Label30 control.
@@ -663,18 +634,6 @@ namespace mid {
         protected global::System.Web.UI.WebControls.Label Label30;
         
         /// <summary>
-<<<<<<< HEAD
-=======
-        /// Label34 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label34;
-        
-        /// <summary>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// TextBox19 control.
         /// </summary>
         /// <remarks>
@@ -754,26 +713,5 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox22;
-<<<<<<< HEAD
-=======
-        
-        /// <summary>
-        /// Button1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
-        
-        /// <summary>
-        /// Button2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     }
 }

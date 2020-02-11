@@ -25,15 +25,9 @@ namespace mid
         {
             FixdAstStatus f = new FixdAstStatus()
             {
-<<<<<<< HEAD
                 AsetStat_No = Convert.ToInt16(TextBox1.Text),
                 AsetStat_NmAr = TextBox2.Text,
                AsetStat_NmEn = TextBox3.Text
-=======
-               AsetStat_No =Convert.ToInt16( TextBox1.Text),
-               AsetStat_NmAr = TextBox2.Text
-
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
 
             };
             db.FixdAstStatus.Add(f);

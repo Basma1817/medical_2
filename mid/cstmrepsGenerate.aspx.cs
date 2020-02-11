@@ -75,30 +75,18 @@ namespace mid
                 Label1.Text = "المدينة";
                 DropDownList1.DataValueField = "City_No";
                 DropDownList1.DataTextField = "City_NmAR";
-<<<<<<< HEAD
                 //DropDownList1.DataSource = db.InvAstCityxxx.ToList();
                 //DropDownList1.DataBind();
                 //TextBox1.Text = DropDownList1.SelectedValue;
-=======
-                DropDownList1.DataSource = db.InvAstCity.ToList();
-                DropDownList1.DataBind();
-                TextBox1.Text = DropDownList1.SelectedValue;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             }
             else if (RadioButtonList1.Items[4].Selected)
             {
                 Label1.Text = "المنطقة";
                 DropDownList1.DataValueField = "Area_No";
                 DropDownList1.DataTextField = "Area_NmAR";
-<<<<<<< HEAD
                 //DropDownList1.DataSource = db.InvAstAreaxxxx.ToList();
                 //DropDownList1.DataBind();
                 //TextBox1.Text = DropDownList1.SelectedValue;
-=======
-                DropDownList1.DataSource = db.InvAstArea.ToList();
-                DropDownList1.DataBind();
-                TextBox1.Text = DropDownList1.SelectedValue;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             }
             else if (RadioButtonList1.Items[5].Selected)
             {
@@ -174,7 +162,6 @@ namespace mid
                 title += " " + "حسب نوع النشاط" + " " + db.InvAstNutrbusn.Where(o => o.Nutr_No == sel_id).Select(o => o.Nutr_NmAr).SingleOrDefault();
                 query += " where MtsCustmr.Nutr_No = " + TextBox1.Text;
             }
-<<<<<<< HEAD
             //else if (RadioButtonList1.Items[3].Selected)
             //{
             //    title += " " + "حسب المدينة" + " " + db.InvAstCityxxx.Where(o => o.City_No == sel_id).Select(o => o.City_NmAR).SingleOrDefault();
@@ -185,18 +172,6 @@ namespace mid
             //    title += " " + "حسب المنطقة" + " " + db.InvAstAreaxxxx.Where(o => o.Area_No == sel_id).Select(o => o.Area_NmAR).SingleOrDefault();
             //    query += " where MtsCustmr.Area_No = " + TextBox1.Text;
             //}
-=======
-            else if (RadioButtonList1.Items[3].Selected)
-            {
-                title += " " + "حسب المدينة" + " " + db.InvAstCity.Where(o => o.City_No == sel_id).Select(o => o.City_NmAR).SingleOrDefault();
-                query += " where MtsCustmr.City_No = " + TextBox1.Text;
-            }
-            else if (RadioButtonList1.Items[4].Selected)
-            {
-                title += " " + "حسب المنطقة" + " " + db.InvAstArea.Where(o => o.Area_No == sel_id).Select(o => o.Area_NmAR).SingleOrDefault();
-                query += " where MtsCustmr.Area_No = " + TextBox1.Text;
-            }
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             else if (RadioButtonList1.Items[5].Selected)
             {
                 title += " " + "حسب مندوب التسويق" + " " + db.InvAstMarket.Where(o => o.Mrkt_No == sel_id).Select(o => o.Mrkt_NmAr).SingleOrDefault();

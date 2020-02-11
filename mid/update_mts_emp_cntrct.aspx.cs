@@ -15,7 +15,6 @@ namespace mid
             Label1.Text = "";
             if (!Page.IsPostBack)
             {
-<<<<<<< HEAD
                 DropDownList1.DataValueField = "Cmp_No";
                 DropDownList1.DataTextField = "Cmp_Nm";
                 DropDownList1.DataSource = db.MainCmpnam.ToList();
@@ -28,8 +27,6 @@ namespace mid
                 DropDownList8.DataBind();
                 ViewState["id"] = 0;
 
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 TextBox1.Enabled = false;
                 DropDownList3.DataValueField = "Dpm_No";
                 DropDownList3.DataTextField = "Dpm_Nm";
@@ -52,11 +49,7 @@ namespace mid
                 TextBox4.Text = cn.Cnt_Stdt;
                 TextBox5.Text = cn.Cnt_Endt;
                 TextBox6.Text = cn.Cnt_Nwdt;
-<<<<<<< HEAD
                 RadioButtonList1.SelectedValue = cn.salry_typ.ToString();
-=======
-                DropDownList1.SelectedValue = cn.salry_typ.ToString();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 DropDownList3.SelectedValue = cn.Depm_No.ToString();
                 TextBox7.Text = cn.Bsc_Salary.ToString();
                 DropDownList4.SelectedValue = cn.Pymnt_No.ToString();
@@ -163,7 +156,6 @@ namespace mid
             Response.Redirect("mts_emp_cntrct.aspx");
 
         }
-<<<<<<< HEAD
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
         {
             int no = int.Parse(DropDownList1.SelectedValue);
@@ -179,7 +171,5 @@ namespace mid
 
         }
 
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     }
 }

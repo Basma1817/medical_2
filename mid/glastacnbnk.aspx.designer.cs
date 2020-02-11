@@ -13,7 +13,6 @@ namespace mid {
     public partial class glastacnbnk {
         
         /// <summary>
-<<<<<<< HEAD
         /// Label17 control.
         /// </summary>
         /// <remarks>
@@ -69,19 +68,12 @@ namespace mid {
         
         /// <summary>
         /// Label5 control.
-=======
-        /// Label3 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label Label5;
-=======
-        protected global::System.Web.UI.WebControls.Label Label3;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         
         /// <summary>
         /// DropDownList1 control.
@@ -93,21 +85,13 @@ namespace mid {
         protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
         
         /// <summary>
-<<<<<<< HEAD
         /// Label3 control.
-=======
-        /// Label1 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label Label3;
-=======
-        protected global::System.Web.UI.WebControls.Label Label1;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         
         /// <summary>
         /// TextBox1 control.
@@ -146,18 +130,6 @@ namespace mid {
         protected global::System.Web.UI.WebControls.Button Button3;
         
         /// <summary>
-<<<<<<< HEAD
-=======
-        /// Label2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
-        
-        /// <summary>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// GridView1 control.
         /// </summary>
         /// <remarks>

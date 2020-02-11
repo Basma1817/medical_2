@@ -20,11 +20,7 @@ namespace mid
                 var cn = db.HrAstdeductntyp.Find(id);
                 TextBox1.Text = cn.Deduc_No.ToString();
                 TextBox2.Text = cn.Deduc_NmAr;
-<<<<<<< HEAD
                 TextBox3.Text = cn.Deduc_NmEn;
-=======
-            
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
 
             }
         }

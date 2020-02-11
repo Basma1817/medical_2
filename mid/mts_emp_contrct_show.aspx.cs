@@ -15,7 +15,6 @@ namespace mid
             Label1.Text = "";
             if (!Page.IsPostBack)
             {
-<<<<<<< HEAD
 
                 DropDownList1.DataValueField = "Cmp_No";
                 DropDownList1.DataTextField = "Cmp_Nm";
@@ -28,8 +27,6 @@ namespace mid
                 DropDownList8.DataSource = db.ActivityTypes.Where(o => o.cmp_no == no).ToList();
                 DropDownList8.DataBind();
                 ViewState["id"] = 0;
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 DropDownList3.DataValueField = "Dpm_No";
                 DropDownList3.DataTextField = "Dpm_Nm";
                 DropDownList3.DataSource = db.AstDprtmnt.ToList();
@@ -79,7 +76,6 @@ namespace mid
             Response.Redirect("mts_emp_cntrct.aspx");
 
         }
-<<<<<<< HEAD
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
         {
             int no = int.Parse(DropDownList1.SelectedValue);
@@ -94,7 +90,5 @@ namespace mid
         {
 
         }
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     }
 }

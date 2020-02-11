@@ -31,21 +31,13 @@ namespace mid {
         protected global::System.Web.UI.WebControls.TextBox TextBox2;
         
         /// <summary>
-<<<<<<< HEAD
         /// Label4 control.
-=======
-        /// Label3 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label Label4;
-=======
-        protected global::System.Web.UI.WebControls.Label Label3;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         
         /// <summary>
         /// DropDownList2 control.
@@ -75,21 +67,13 @@ namespace mid {
         protected global::System.Web.UI.WebControls.TextBox TextBox3;
         
         /// <summary>
-<<<<<<< HEAD
         /// Label5 control.
-=======
-        /// Label4 control.
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label Label5;
-=======
-        protected global::System.Web.UI.WebControls.Label Label4;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         
         /// <summary>
         /// DropDownList1 control.

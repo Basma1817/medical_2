@@ -19,19 +19,11 @@ namespace mid
                 DropDownList1.DataSource = db.InvAstCntry.ToList();
                 DropDownList1.DataBind();
                 var id = int.Parse(Request.QueryString["no"]);
-<<<<<<< HEAD
                 //var cn = db.InvAstAreaxxxx.Find(id);
                 //TextBox1.Text = cn.Area_No.ToString();
                 //TextBox2.Text = cn.Area_NmAR;
                 //TextBox3.Text = cn.Area_NmEN;
                 //DropDownList1.SelectedValue = cn.Cntry_No.ToString();
-=======
-                var cn = db.InvAstArea.Find(id);
-                TextBox1.Text = cn.Area_No.ToString();
-                TextBox2.Text = cn.Area_NmAR;
-                TextBox3.Text = cn.Area_NmEN;
-                DropDownList1.SelectedValue = cn.Cntry_No.ToString();
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             }
         }
         protected void Button3_Click(object sender, EventArgs e)

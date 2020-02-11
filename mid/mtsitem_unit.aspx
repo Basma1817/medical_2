@@ -43,11 +43,7 @@
             </div>
         </div>
     </div>
-<<<<<<< HEAD
        <%--  <div class="wrapper" id="app" style="float: left; width: 100%; margin-right: 30px;">--%>
-=======
-         <div class="wrapper" id="app" style="float: left; width: 100%; margin-right: 30px;">
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             <div style="direction: rtl; padding: 10px 10px 10px 55px">
                 <asp:Label ID="Label1" runat="server" Text="رقم الوحدة"  Style="color: aliceblue;"></asp:Label>
 
@@ -63,11 +59,7 @@
          </div>
 
 
-<<<<<<< HEAD
                 <div>
-=======
-                <div style="width: 100px; position: center; height: 935px; justify-content: center; width: 100%; padding-left: 35px; padding-right: 40px; text-align: inherit;">
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
 
                     <asp:GridView ID="GridView1" CssClass="table table-striped" runat="server" Style="direction: ltr; font-size: 14px;" GridLines="None" OnPageIndexChanging="GridView1_PageIndexChanging" BackColor="White">
                         <Columns>

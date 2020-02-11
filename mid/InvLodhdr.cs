@@ -14,11 +14,8 @@ namespace mid
     
     public partial class InvLodhdr
     {
-<<<<<<< HEAD
         public short Cmp_No { get; set; }
         public short Actvty_No { get; set; }
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         public short StoreID { get; set; }
         public short Doc_Ty { get; set; }
         public long Doc_No { get; set; }
@@ -103,9 +100,5 @@ namespace mid
         public Nullable<decimal> Taxv_ExtraTot { get; set; }
         public Nullable<short> Tax_Allow { get; set; }
         public Nullable<long> Tax_Acc { get; set; }
-<<<<<<< HEAD
-=======
-        public Nullable<int> cmp_no { get; set; }
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     }
 }

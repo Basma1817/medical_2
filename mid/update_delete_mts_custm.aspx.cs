@@ -22,11 +22,7 @@ namespace mid
                     DropDownList4.DataTextField = "Cmp_Nm";
                     DropDownList4.DataSource = db.MainCmpnam.ToList();
                     DropDownList4.DataBind();
-<<<<<<< HEAD
                     TextBox28.Text = DropDownList4.SelectedValue;
-=======
-                    TextBox17.Text = DropDownList4.SelectedValue;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
 
 
                     DropDownList5.DataValueField = "Brn_No";
@@ -136,11 +132,7 @@ namespace mid
         }
         protected void DropDownList4_SelectedIndexChanged(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             TextBox28.Text = DropDownList4.SelectedValue;
-=======
-            TextBox17.Text = DropDownList4.SelectedValue;
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
             int no = int.Parse(DropDownList4.SelectedValue);
             DropDownList5.DataValueField = "Brn_No";
             DropDownList5.DataTextField = "Brn_NmAr";

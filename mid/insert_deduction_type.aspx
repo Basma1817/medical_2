@@ -1,6 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="insert_deduction_type.aspx.cs" Inherits="mid.insert_deduction_type" %>
 
-<<<<<<< HEAD
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
   
@@ -16,14 +15,6 @@
             <asp:Button ID="Button4" runat="server" type="submit" Text="تراجع" OnClick="Button2_Click" class="btn btn-success" />
         </div>
 
-=======
-<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-
-    <div class="content-wrapper">
-        <ol class="breadcrumb" style="width: 1050px;">
-            <h1><small>اعدادات الموظفين < اضافة انواع الاستحقاقات </small></h1>
-        </ol>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         <div class="row">
             <div class="col-xs-12">
                 <div class="box" style="height: 875px;">
@@ -32,25 +23,14 @@
                     </div>
                     <!-- /.box-header -->
                     <div style="margin-right: 35px">
-<<<<<<< HEAD
                        <div class="box-body">
                             <table id="example2" class="table table-borderless">
                                 
-=======
-
-
-
-                        <div class="box-body">
-                            <table id="example2" class="table table-borderless">
-                                <thead>
-                                </thead>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                                 <tbody>
                                     <tr>
                                         <td>
                                             <asp:Label ID="Label1" runat="server" Text="الرقم"></asp:Label></td>
                                         <td>
-<<<<<<< HEAD
                                             <asp:TextBox ID="TextBox1" runat="server" style="width:5%"></asp:TextBox></td>
                                     </tr>
                                     <tr>
@@ -70,40 +50,6 @@
                                        
                                     </tr>
                                     </tbody>
-=======
-                                            <asp:TextBox ID="TextBox1" runat="server" style="width: 60px;text-align: center;margin-left: 90%;"></asp:TextBox></td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <asp:Label ID="Label2" runat="server" Text=" اسم  "></asp:Label></td>
-                                        <td>
-                                            <asp:TextBox ID="TextBox2" runat="server" Style="margin-bottom: 10px;"></asp:TextBox>
-                                        </td>
-                                        <td>
-                                            <asp:Label ID="Label4" runat="server" Text="AR " Style="margin-right: -128px"></asp:Label></td>
-
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <asp:Label ID="Label5" runat="server" Text=" "></asp:Label>
-                                        </td>
-                                        <td>
-                                            <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
-                                        </td>
-                                        <td>
-                                            <asp:Label ID="Label6" runat="server" Text="EN " Style="margin-right: -128px"></asp:Label></td>
-
-                                    </tr>
-
-                                    <tr>
-                                        <td>
-                                            <asp:Button ID="Button3" Style="margin: -3px 113%; height: 30px; background-color: #007bff; width: 52px" runat="server" Text="حفظ" OnClick="Button1_Click" />
-                                        </td>
-                                        <td>
-                                            <asp:Button ID="Button2" Style="margin: -3px -94% 50px -42%; height: 30px; background-color: #dc3545; width: 52px" runat="server" Text="تراجع" OnClick="Button2_Click" />
-                                        </td>
-                                    </tr>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                             </table>
                         </div>
                         <div>
@@ -111,13 +57,7 @@
                     </div>
                     <!-- /.box-body -->
                 </div>
-<<<<<<< HEAD
        
-=======
-                <!-- /.box -->
-
-
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
                 <!-- /.box -->
             </div>
             <!-- /.col -->
@@ -127,26 +67,4 @@
 
     </div>
 
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
-    <%--<table class="grid">
-     
-              <tr>
-            <td>
-                <asp:Label ID="Label2" runat="server" Text="الاسم"></asp:Label></td>
-            <td>
-              <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-
-                <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-            </td>
-        </tr>
-    </table>
-    <asp:Button ID="Button1" runat="server" Text="insert" OnClick="Button1_Click" />--%>
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
 </asp:Content>

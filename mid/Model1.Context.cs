@@ -30,10 +30,7 @@ namespace mid
         public virtual DbSet<ActivityTypes> ActivityTypes { get; set; }
         public virtual DbSet<ActivSetup> ActivSetup { get; set; }
         public virtual DbSet<AgeBalance> AgeBalance { get; set; }
-<<<<<<< HEAD
         public virtual DbSet<AstCity> AstCity { get; set; }
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         public virtual DbSet<AstCompany> AstCompany { get; set; }
         public virtual DbSet<AstDprtmnt> AstDprtmnt { get; set; }
         public virtual DbSet<Astsupctg> Astsupctg { get; set; }
@@ -65,13 +62,7 @@ namespace mid
         public virtual DbSet<HrAstReljan> HrAstReljan { get; set; }
         public virtual DbSet<HrAstReqtyp> HrAstReqtyp { get; set; }
         public virtual DbSet<HrAststate> HrAststate { get; set; }
-<<<<<<< HEAD
         public virtual DbSet<InvAstCardTyp> InvAstCardTyp { get; set; }
-=======
-        public virtual DbSet<InvAstArea> InvAstArea { get; set; }
-        public virtual DbSet<InvAstCardTyp> InvAstCardTyp { get; set; }
-        public virtual DbSet<InvAstCity> InvAstCity { get; set; }
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         public virtual DbSet<InvAstCntry> InvAstCntry { get; set; }
         public virtual DbSet<InvAstcPayType> InvAstcPayType { get; set; }
         public virtual DbSet<InvAstCurncy> InvAstCurncy { get; set; }
@@ -80,10 +71,6 @@ namespace mid
         public virtual DbSet<InvAstNutrbusn> InvAstNutrbusn { get; set; }
         public virtual DbSet<InvAstPymwys> InvAstPymwys { get; set; }
         public virtual DbSet<InvAstRefTyp> InvAstRefTyp { get; set; }
-<<<<<<< HEAD
-=======
-        public virtual DbSet<InvAstRefTypMain> InvAstRefTypMain { get; set; }
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         public virtual DbSet<InvAstSalesman> InvAstSalesman { get; set; }
         public virtual DbSet<InvAstwrkPeriod> InvAstwrkPeriod { get; set; }
         public virtual DbSet<InvLimit_Qty> InvLimit_Qty { get; set; }
@@ -165,7 +152,6 @@ namespace mid
         public virtual DbSet<viwItmUnit> viwItmUnit { get; set; }
         public virtual DbSet<viwStkitm> viwStkitm { get; set; }
     
-<<<<<<< HEAD
         public virtual ObjectResult<Nullable<int>> InvLoddtl_Count_New_Ln_No(Nullable<short> doc_Ty, Nullable<long> doc_No)
         {
             var doc_TyParameter = doc_Ty.HasValue ?
@@ -420,8 +406,6 @@ namespace mid
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("InvLodhdr_Update", doc_NoParameter, storeIDParameter, doc_DtParameter, doc_DtArParameter, pym_NoParameter, curncy_NoParameter, exchangeRateParameter, sup_NoParameter, to_StoreParameter, sup_VchrNoParameter, sup_InvParameter, rcvngPur_DtParameter, credit_DaysParameter, pym_DtParameter, notesParameter);
         }
     
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         public virtual ObjectResult<login_check_Result> login_check(string user_name, string password)
         {
             var user_nameParameter = user_name != null ?
@@ -435,7 +419,6 @@ namespace mid
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<login_check_Result>("login_check", user_nameParameter, passwordParameter);
         }
     
-<<<<<<< HEAD
         public virtual ObjectResult<MtsItmunit_Gett_By_Itm_No_Result> MtsItmunit_Gett_By_Itm_No(Nullable<long> itm_No)
         {
             var itm_NoParameter = itm_No.HasValue ?
@@ -454,8 +437,6 @@ namespace mid
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Nullable<int>>("MtsSuplir_get_Credit_Days", sup_NoParameter);
         }
     
-=======
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
         public virtual int register(string user_name, string password, string email, Nullable<int> group_id)
         {
             var user_nameParameter = user_name != null ?

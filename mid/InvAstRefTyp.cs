@@ -15,7 +15,6 @@ namespace mid
     public partial class InvAstRefTyp
     {
         public int ID_NO { get; set; }
-<<<<<<< HEAD
         public short Cmp_No { get; set; }
         public short Actvty_No { get; set; }
         public short RefTyp_No { get; set; }
@@ -24,12 +23,5 @@ namespace mid
         public Nullable<short> Level_Status { get; set; }
         public string RefTyp_NmAr { get; set; }
         public string RefTyp_NmEn { get; set; }
-=======
-        public short Main_Reftyp { get; set; }
-        public short RefTyp_No { get; set; }
-        public string RefTyp_Nm { get; set; }
-        public string RefTyp_NmAr { get; set; }
-        public Nullable<int> cmp_no { get; set; }
->>>>>>> 292cc9635701abdad279c3fdf75cc90850de5602
     }
 }
